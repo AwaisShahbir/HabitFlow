@@ -1,0 +1,4193 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+/Title (HabitFlow \055 Feature Requirements Document)
+/Author (Product Requirements)
+/Subject (Flutter Developer Internship Project)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 13
+/Kids [ 4 0 R 10 0 R 12 0 R 14 0 R 16 0 R 19 0 R 22 0 R 25 0 R 28 0 R 31 0 R 34 0 R 37 0 R 40 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 1367
+>>
+stream
+Gatm:gN)%,&:N/3lso=c(]kt-R6K;Hh'A1uSO>8^L.G-/baSW0)Z>(#TLd8+Be(6c/W%7qZ+C6f3<Xa-,ORXo!NoMnnWj0KYUY0V?3mU8nE4QVYkWqpEmSF'kL1QJ&-n=6`A,>Uk7mhciF0Q1LFQXHStAD-B&H*D8kB.,9mr0onGTOZj%cNr9Sc2Q'&]L9+*dRea5bQ;a*[f)N(7P"@L+%F=cuTXRg$f#VGJ/3C(-:mi7fpfAqU$Nl0A-:lLsO.s8E5'T<Po2@F(>Ndpo]bMioIg"Nq0^b/3e#(8J_*"DfhqjD/I;V0I/:'O5e:)3tl\+@r50^fd+$$?&2JH<("TS:?$qF]Skoi)XgG.fnPH6SF_'7:S10Zrq=>??_jCnCXYjiM,;;G[3V5g:YajCn%7Zq[,KeH=ILKg#.(L9A'?t>&G8E).`,8.+rF0F@^$Oj1ojl+m6/bK<`Lmpi6f%K/TZKY:fp/PYEbE5*f*9<p_Pk2n[i`RGhK&B"S2WcSr^5Ed6en--b;8mhKariLKuXM7jTR@.lL2jA>r?_`K+uhPT+<1&_YR,(-h8#c9C$WTQ',?ti\eA];X*GGbof4%rr2>@\8@4do+7oj96rl@ia5?mWC*I<Sb&G(A7i@MT8:j2'Q\)^ZqemtMO-ifLLX':CC^k&)5(*bWW!8Q!_.QGB\)d4?,Y'fSR^lIU$#ZcQ,_Y*rV'15EGH9<8f`Fk);a\sJ\5SM]G-4uRt1\=0V_"=!l:_"c;q2F8@FK9<R?A914d]\3'//2?KpASW>k^g=beD@jN\\5t.1V%K+i`n(<@Ze<em%kW.=k$$iuYkVNQqp6+4Km[#oV-gh%jIO0&[_o5hccH$.$N0AD@,H$H.L.Lc0VuQNJ=YV<0KeC?(]=29Ga=\L85,1'nUhO*@r'p6'=>6<g+;e.A3MPPTj(]T1(fjMn9!DL;ERjF3JdIh'+lie;4JV!E&@t>4Vlsj'[Z&GJ?(siN=,!jZl$LO2E.rD(3jO5L%@+D:FCjOQ`-L2`VB!t>:0&.9]L[211hofonBaL,TA:s_]Tq9YrS3*KU>Q3a!n9-H0)?JNW2eKlCc`gp0Em+0lItij58-:eb01T#:4_qq>J5]1^L7H9=1@u;WN7[HltK^-d*aC;X=UB+D[c+>6.CLQ.V9JdW$p.B90quPm[DOiV6S&q:bOZI#i3.XgloTGgBb5Pkg+\9kJ=#dU5s4Mj':=UQ6.V$l.s1_ori9\+R`uH>E\c*(b8DAr2a%h[dWU'dTEkcAgJ6WpT<?Z^])Yh"bIM%O;]`7C4!:"Y&*mE(:llQDU(OFLS/6QYhe-eMbs,_K:daTo$@eF+tL^R-Ocg;=^hW-`"0i$N'BCR]uPtRT;,7~>
+endstream
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Contents 11 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 1547
+>>
+stream
+Gb!#\bAuW$&A7<Zk3/TlRKO]VO.1n;=66Zp[8jb(i(-1.&mPFDU/X=*#G<Wk?7SZcGYkq%b7r'420sQeN$+pgaM3TNi26b6bTho\/63<.5lus/i7Gs/o-DC52G6pRnfeV)K)X'41sb.[[n2[uG1&Vo"X/d["pk[cW5o=E+\e,MV+6:jGaRiUbih*f;X@$ZELPul$rf$=B.QaactdiC[)[F$5Ke[=ac[&J2-g+*QdX/0[=s*=??OhnL>.Gh)mbYYb`UXT,M_>B:26l8Z/u9nqur!#?.%]eZS4pjqM)1ks,jJsf[1FX`5U\ufcJNl97g:`k/<sg.P*p_Z4KF*8;PD2E_N_s?RLNV<OeGQLiPugM]EI45:])#)Wfe3W_%GYeK!"F?T3S2?\'WuKqeW3C/oGoJpKc^,]O4).DZ;?iW(f40d[eS*7h:C;JBhk%cAT_nhF"[!B^XIfM%XDWU]FB^FuE^J7c,B!@7liC?1G)BnWM@$E[8:#[W@jir6XZW^0mdfpL.7!']5qI/;;:/()H2fj)M\R"2IB(+;)#,]8-JZ&ofU;q(dmdJ47M+%TuEr5(%@>*W38IO$fHRRFjd2O:_+a2F->@s*cM6K((n7Q&ZFbG"OY/=j%#d1l];I/o2FP+p24'rNl)`cT%Y3XhXZj%I)gl2&RXd5P*1nR_cqG[+T&@t*X-[5>l^q?FoK-&ioF,TP?t,Nm1sX%!A2/T1cD+;(B7ga`]'Gh"s(cr*Lk"QKkmn",VOkC8=eZh8g.\0O7]KidrAR4B-M19PHPWh'EAPZrN<:U[mr$D[\4/Sa=8ET9f`/j!4$Z<79JgPY@A0hcJ#kU]m;)O&gGBWc%p1b6+[@oK/d[!#LgdS/n;_R2J(1ta[Oe\QR7>-6?o%=MK&1+)i$j+g<X!QlbmeK4(NQ;'r9Y<@"H4c9GfV0))NiMZo1CCCDDqF723AQ$UnidsTe*:!oY]=N"OZG(.YdEJf`K'P9tkSuJ;Xr\B4hXR+.h9GLXn/[6sRR,L,MI52tW]I6Ln_p[8AG.(=iG)-u%I:"W`Vs8WdWmele77^`c7LJhs'C?+J:F=0dZ@X3B4Z^-^m`54Q@C'ZIE)m[_&E-e$GFpZaq-pUhT10dH+mi<MgG8^:GfZW4ZA&!1qkfdddoiF$-%91ZC6\Aa4"X%C2Zr0-=dgkY%kVWQjU)]aNTS2i,WU%A.RYhaFGpsa7t")Id\ct'nm+LDA6o4@qc:+$FpB0YA30hh9afp7dRp.Lrf8/V1*5Q:AjuDk$j4Q;@MQ*AES@^XL)2IKPUn\5hO'O0,r5ekF=kTmi"Br9k@gB/+(@LKrdl>.nW?]PRh0ei]NQekIL=h8\QJ;Db.RKeJCD]\=h:9](:3"nn..4lEa'sb8iq*`L/@uc[9Zs)G<X&nCiY<)I/;r'k4^!56eiBcbj!+U5tkp"qc#u0$D7V=l$]gKh=A!Q#:*WKiZ4'GYQ%"V<L9USOMe>&J^l:"Q]b`+.uW@c(pn_IorCGS>*^+0<AAN0sX^S(l;EHID(+Q7Cs)a#5BdC)b47Z-qq>TR*8r4~>
+endstream
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 1249
+>>
+stream
+Gatm:D0)1+&H;*)Yoe$)7hGe*gjQb?lYAS!j!MJ^J710I!"fe*B'+R?XhZSL'.6Pqj2<"keaD^J*bj4,:*6D6:.g%\$b2cgi!<Fqi-<Iu`>A<RQon&E-q3(i^qqM\DFD5?pVRP[s.1nderpGgLN29F!M3]5'?LMPn3)g=J+Tak]?)Bk5jKgkZq8)=?\Zu4b/rF(pg+*Jb5+/g)L(^?aBVMe&f)cuI#OE7bR2%<s'SlL`aAn@.f-=%>h(OGfQ7S>/O"9V_%J9IrW\9&Ydh&3a5I27?:[.?#X=AO#juBFGJ[gu,hQ'18<3qELP2@TMFX0p$d93F7o1t]+sigsLP'M$>gEO4T`mcm(5WF8G"(#BdZ$!hgOfR!/O?uI5m`i0@S=:pE2XI*PXHfsG+IRL\WZckn%f`%:pTGNK%eQ%LQ?krXUg>;].79OoE%dMUOfku.QLhr4r`.&fju["hFg]3"M!9m,a1IZEkGupX4Y;CUMAg#Wq-86a.knS5,liepFFWMKH6s^7"QhC`%OQ/O.!"=#.f*nTD.Y"`Yb8nJ"$e!4lk_e7*75p*3S48>c"^QbmD2-[jF;-q5.?\\4K].RR.q%H2f^Tg`CV5lh6tF;eV@7e#pL;HDk:ShF40^\j-W=3LL*3HZD^;!bi_cjJoVWRDL^s<C.2#Tf4H8Vn2q_-?#ifButs,JeSHLTjhg\9klQ<RM2V`)\HGhf"bHJpQ4VDg2:&n[\XG=UGYU3cDCYu<%upXC@g%'i4^qHF#<9NSqTcUQ)Q%;FS7O0>gY:7XCJ9SFc&RE&h?tZR^..l'1mT/6`F!.&Bici?=VGdr.oD5i:GdL2o)&nDTqEOSdisU5ANq$VQe@n?@5:)>S[TbAfK?l^Vm*mXs3;t>aXRT50l^]7pY+SRl#p9XAuhu6O^n)Y41>B-ef<&girEKh4f!XEB6/-7..'j@LJCAao.H>p0:GMe5fOgnHY<P'TsT<?e%T8i,BJpFE'T`jZ2$Ye,PIFk9bBiS;)Jtm^o3A["D9,f/GH)^?-Z\OirkP[\&UTHuG/Q(:cB6#6oBf#bm;BXEjQE:F8CgcsZ7QLTUOPnI^NE7[W?Z878XI3#:1tJ7Z[/'A*VFb^OLjWEb/Nc\hiO7-KeQlko<]ZHmltBY82gNdAMMj4dk6CP8PPCqk8n*PQ59oL`,9^o7]9@7GktocLc3kW5_RQ,90b:S:l@Tc[02#)f"SKXrcoGMaOW,sp3meeOjaXABWq<?4d4#FQpcci~>
+endstream
+endobj
+14 0 obj
+<<
+/Contents 15 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+15 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 2694
+>>
+stream
+Gb!#^bAuCH'&Dk(HBTht259jm8$e'pMN^YQD/4%F9f<Q>R=W=Y!)iB`o's1.+?:EEZ5=)g/D1Y-J3`_!EV_Kl#Aj<Xo^=%1GeJjTCBkgqef/RUbD5b/n8<[Jf9mA/DWD%1`QQp-QM<DEK/eT]5G)'Z4Id,t30rrXTaSSM"jSl.64SS8>Ac->PekUIgI[(e@5#g4$d/pp3:m4J[(OHhr$BE9eTG%7qtAjuo)-iF@@b=3HZgq)l`>JaJ)EA'lC(B@V81uBg5-0>3NF+@i=l6l&X)=iW7?s5rXA*oeEO2_f=(So^[S2t%rBG*+2%+UZ05PO>)T-%[j'Re&OV/m?J>1Z?odZ'7josEOE)FkNXZ$^E-^i&',(q[7nB.s(>L0uoA\bQJ"cKLaJZ0?pl%)eo#M^f3?5QU>Ik;JjVmG+>N8ikHX&?`=PHs=^jh6rP0$Z;gCaCr:>^O[f$ms[]@/a//j]i'8`!;HkF&d;EP#S=:\^/Cj2]2!SNGo,#_j4gRiT'YX"#N"c55ucZ_Yf*Lb*=@/Qj[J@KEQ$JO*0LM,52eQRZL!/qS*G47ZLh]#bu0BoTpWG3=VC^nMM4r#j10O`H-@B3rJMc",'2]L8M`30k:bZ4&5)2dAs+9j#ZLV;-^_):p`9TGY]*bYT9_F=N/Q.\UT*qe:rEQWG'V0P4n5Z>@:-["P0T6'2ZgWaZ]lcOnK^2+=ei"6P.'Ach+=;=KcW;QSd^-:0":+u'b?i\D<BdA87)C=iAVD8CP=2&kU9qiRasL4tUr[i&)\k3+)p.5(g"a.PLSJ\1EC==RlsVal/g%C7;LE+0I;@VDmkr>1PP81R,Gjp?W=,I+.?A:*C-'!!Gb;U6!_[nI]dDl4CI06$'P7U`7Pn[-DoT#q8toU'Wi*O1CK&c6Lb7lo3M3+0'Y$u;@hL:QgTTa_O,hEd<E-4dV$PUg'RL/Km0)Zse.4-gC(AGJ,aU)6SlL'2G3V*`L%dgMp(bbIpjTJYWo%TJYT9^]sZ3'2^&VBbjGa+E-*XeGL#KQW]gr;tiNhkIP]O;=hc=sV7`Gf+<kMc!gE#BN7N@*p5,(j8$B2GFB<YNifhTS=<2dqX?:&Q7.L^'G629P#oVmV#(J!@s*pe.(SqkeNpV"igh"bRW9[Z<,.&@k@t]N@]-M%5ika0U\T^&5/%'.VUYi4=N".,rN[l%52_%VUT.sMX;h7oU!B"[6](eKR(:cTBAW;I#5g.KRZ_MNZVH?783aZARr>hls\J+VS_Y#]&0au3Dl\`L(M&cPRDT*:*.Bh0]KkudTR^R<l*B"Vl"/;9_(BS?uQnh;mJQ2Q[o>t["#=<XVSqt?K\<7*-&T/[BX^_\o(f$N8+2k4gC1Ai/R/1gW`[E`n1m#"EP4q6]3:Qm"/,&b0!e@S2'+bDhPi/okEFn7&'.nXH]bL'8Lm@iObJ.DL&q\4_W1\l?cC(>`K\HDf.UHB[NdkTS9737U<E#KI.W&]3a5TE.3SgPQbtZ4[Lcr#KTm!P%=u@XF3`jN75:+C)`MZqp*uMaj?aqJR(p"+RK;Hh23NBHBNbI-oFITbSp4n'Wm]M_Mf,PS:(upPNtQVGd0[lrT?2M[MBJp"Tidb$nU\i+%P8T/a"Hd]]E\Pjc:bO;C%\mdmgdo:JZ4H;L!<)Xl`\W;\8Z;\L]?-T5iq`'ACUKd=G`gaI-@_U#8"%?@1)TjNPuF;sAkh,;g/pd>ag0B:2:Jee\/d$;8i+RVEO><DhaGCEtkHGaF7T0;,*cF$:,<Ad7D5U(b@jLEW7@'C248TLS6l>V]iASPE8i/R8c_655-M9Llq^\W^cmoe;ttfWK2lBO(Q@^)&"f?>'LKi5:7aPJ5hb_D^YVXV*g#"a);gO*WZO;&15=<d`rhG27(<l*elR%>EPTSFt/.@:29=prWV6[t@Ut##R10,sqAXK!DA9n\1p[G=FSWgU?Fd<j7P]mqM[D^^HX8qQTY9f[(0J5PTG$`O5Qa&m=1dn(4:AErRn*PBHYWZd^NA^5V/aSc2\6Xl`=6.7boOT]dR`T^1bgHjK.>rO6e=AXFk2nZ<ME*OlL3[NWuTJKja0J5=bpLOL821SeGJ)ZUh^D03qJM@-+'^4lSt@'nADAc/IknTW,4.I0CY_]5VS^Hq3LqU8.n$>#$8gTqcN`rbZXi.&`GT>,Yn_)#^?FC<3$r/PuC;PDIW%A"Y+[L`$824e\44=UUI"o_AMIjf8s$J_d,$JVh^ir5hDae`ZEkYlJNdh[F\2?peBC&edb;P20HQ`nWE<R(r[eYa6RVuh<`H/?oB.@*ei"?+:+\tt8&nS6":p$G1$rYGGV`*qEC/FG/FG>X-bG+F`;NBeJIQ8nEiP/!\Z-\D=r7]1oqa:KA[m)2%G0Vt:?"hRKn0ee<&bMIshSI1Rle%9]__TCS0ln-7Jg`Y,fbb4pG!h'I`;Iq%c7C79a;(29^9A:G9ZF'"O5-33.R9?"t:pha:/iY0C&gqEs*G51c;o9X=e\@NRPB1mIDtU8WB@R8,B#i?FF=_9LM(@ZFM?^0:5$7%SCeI8]n8VC&A[cs3mL5aFd>JideY_;\I;`;ae'*;5b8V[\faqPuS.EP*Ml'X=]:t:#d%mF\Zhe_Z.s"bUSn/AG1pO8J(Eb06Tpf*J4K'>A>)[f"L_!68bmiC#741FV,mdYT%h;?8ZoWL:$kr8"D`-)I#D+jF]?QAVnA3fX!H*UT]`~>
+endstream
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 10649
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.862745 .898039 .870588 RG
+.5 w
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 7.5 Tf 9 TL ET
+.356863 .4 .372549 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (HabitFlow | Flutter Internship Feature Requirements) Tj T* ET
+BT 1 0 0 1 520.4845 28.34646 Tm (Page 6) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 764.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 5 Tm /F2 18 Tf 23 TL (3. Screen-by-screen requirements \(continued\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 739.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (3.6 History and calendar) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 721.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 721.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Display a monthly calendar with markers for completed, missed scheduled, and unscheduled dates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 702.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 702.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Tap a date to inspect habits and progress for that day.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 683.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 683.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Support previous/next month navigation and habit-specific history.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 664.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 664.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Do not mark future dates as missed. Preserve history for archived habits.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 645.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 645.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Show a clear empty state when no habits were scheduled.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 620.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (3.7 Statistics and analytics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 602.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 602.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Today's, weekly, and monthly completion rates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 583.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 583.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Current streak, best streak, total completed occurrences, and habit-level performance.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 564.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 564.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Weekly or monthly trend chart derived from persisted records.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 545.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 545.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Exclude dates before a habit's start date, future occurrences, and unscheduled dates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 526.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 526.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Numeric and duration habits count as complete only when their targets are met.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 507.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 507.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (If no eligible occurrences exist, show 'No scheduled habits' rather than NaN or an invalid percentage.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 489.7008 cm
+q
+.086275 .639216 .290196 RG
+.7 w
+.941176 .992157 .956863 rg
+n -8 -8 497.2283 29 re B*
+Q
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F2 9 Tf 13 TL (Completion rate = completed eligible occurrences / total eligible occurrences x 100.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 464.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (3.8 Local reminders) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 446.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 446.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Allow reminder enable/disable and local time selection per habit.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 427.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 427.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Schedule only on applicable weekdays.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 408.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 408.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Update pending notifications after a schedule or time change.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 389.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 389.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Cancel notifications when reminders are disabled or a habit is deleted.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 370.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 370.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Handle denied permission and platform-specific notification limits.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 338.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 19 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 338.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 17 Tm /F1 9 Tf 13 TL (Avoid duplicate reminders after repeated edits; reschedule after relevant device/app events when required by the) Tj T* (chosen plugin.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 313.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (3.9 Categories and personalization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 295.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 295.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Predefined categories: Health, Fitness, Learning, Productivity, Mindfulness, Personal, and Other.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 276.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 276.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Allow icon and color selection for each habit.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 257.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 257.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Support category filters on dashboard, history, and statistics where appropriate.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 238.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 238.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Personalization must not change tracking logic.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 213.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (3.10 Settings) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 195.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 195.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Light, dark, and system theme; week-start preference; notification status.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 176.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 176.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Optional default reminder preference; export data; reset application data; About/version.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 157.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 157.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Reset requires confirmation and clearly explains that local habits, history, and preferences will be removed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 138.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 138.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Clean up reminders when resetting data.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 113.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (3.11 Data export/import \(P1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 95.70079 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 95.70079 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Export habits, schedules, completion history, and supported preferences to JSON.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 76.70079 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 76.70079 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Validate import data before modifying stored records.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+518.7402 17.00787 34.01575 22.67717 re
+f*
+0.36 0.4 0.37 rg
+BT
+/F1-0 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 520.4845 28.34646 Tm
+(Page 5) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F1-0 21 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 4986
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.862745 .898039 .870588 RG
+.5 w
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 7.5 Tf 9 TL ET
+.356863 .4 .372549 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (HabitFlow | Flutter Internship Feature Requirements) Tj T* ET
+BT 1 0 0 1 520.4845 28.34646 Tm (Page 7) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 774.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 774.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Malformed imports must not corrupt existing data.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 755.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 755.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Document whether import merges or replaces existing data and prevent accidental duplicate records.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 736.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 736.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (If time is limited, validated JSON export is sufficient for the internship version.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 705.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 5 Tm /F2 18 Tf 23 TL (4. Streak and completion calculation rules) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 683.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Implement the streak engine as a separate, testable Dart service rather than embedding calculations in widgets.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 665.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 665.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 13 TL /F2 9 Tf .090196 .129412 .105882 rg (Current streak:) Tj /F1 9 Tf ( consecutive scheduled habit dates completed according to the documented policy.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 646.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 646.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 13 TL /F2 9 Tf .090196 .129412 .105882 rg (Best streak:) Tj /F1 9 Tf ( longest historical sequence of qualifying completed scheduled dates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 627.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 627.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 13 TL /F2 9 Tf .090196 .129412 .105882 rg (Missed occurrence:) Tj /F1 9 Tf ( a scheduled date that has passed without satisfying the target.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 608.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 608.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Only scheduled dates count; unscheduled days do not break a streak.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 589.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 589.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (The current day must not be counted as missed before the day ends.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 570.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 570.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Editing a future schedule must not rewrite historical completion records.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 551.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 551.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Handle local dates and time-zone/daylight-saving changes consistently.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 507.7008 cm
+q
+.086275 .639216 .290196 RG
+.7 w
+.941176 .992157 .956863 rg
+n -8 -8 497.2283 55 re B*
+Q
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 30 Tm /F2 9 Tf 13 TL (Example: a habit scheduled Monday, Wednesday, and Friday. Completing Monday and Wednesday gives a) Tj T* (streak of 2; Tuesday and Thursday do not affect it. If Friday ends incomplete, the current streak is interrupted.) Tj T* (The next completed scheduled occurrence starts a new streak.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 486.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (The intern must document how a habit scheduled today but not yet completed is treated in the current-streak calculation.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+518.7402 17.00787 34.01575 22.67717 re
+f*
+0.36 0.4 0.37 rg
+BT
+/F1-0 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 520.4845 28.34646 Tm
+(Page 6) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/Contents 23 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F1-0 24 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+23 0 obj
+<<
+/Length 10089
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.862745 .898039 .870588 RG
+.5 w
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 7.5 Tf 9 TL ET
+.356863 .4 .372549 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (HabitFlow | Flutter Internship Feature Requirements) Tj T* ET
+BT 1 0 0 1 520.4845 28.34646 Tm (Page 8) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 764.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 5 Tm /F2 18 Tf 23 TL (5. UI/UX and design requirements) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 655.7008 cm
+q
+.086275 .639216 .290196 rg
+n 0 100 436.5354 -20 re f*
+1 1 1 rg
+n 0 80 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 60 436.5354 -20 re f*
+1 1 1 rg
+n 0 40 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 20 436.5354 -20 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 85 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Token) Tj T* ET
+Q
+Q
+q
+1 0 0 1 108.0472 85 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Value) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 85 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Usage) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Primary green) Tj T* ET
+Q
+Q
+q
+1 0 0 1 108.0472 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (#16A34A) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Primary actions, completed states, progress.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Accent green) Tj T* ET
+Q
+Q
+q
+1 0 0 1 108.0472 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (#22C55E) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Highlights and progress accents.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Light background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 108.0472 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (#F0FDF4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Soft light-theme surfaces.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Dark background) Tj T* ET
+Q
+Q
+q
+1 0 0 1 108.0472 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (#111827) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Dark-theme background.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.862745 .898039 .870588 RG
+.35 w
+n 0 100 m 436.5354 100 l S
+n 0 0 m 436.5354 0 l S
+n 0 0 m 0 100 l S
+n 436.5354 0 m 436.5354 100 l S
+n 0 80 m 436.5354 80 l S
+n 0 60 m 436.5354 60 l S
+n 0 40 m 436.5354 40 l S
+n 0 20 m 436.5354 20 l S
+n 102.0472 0 m 102.0472 100 l S
+n 201.2598 0 m 201.2598 100 l S
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 641.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 641.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Use Poppins or Inter consistently.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 622.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 622.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Keep spacing, border radii, icon sizes, and button styles consistent.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 603.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 603.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Support common Android screen sizes; respect system insets and keyboard.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 584.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 584.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Provide accessible labels, readable contrast, and usable touch targets.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 565.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 565.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Avoid overflow on small screens and ensure both themes remain readable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 546.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 546.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Use subtle completion animations without delaying interaction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 527.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 527.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Provide loading, empty, error, success, and confirmation states.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 502.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (Recommended navigation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 484.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 484.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Today: dashboard and daily tracking.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 465.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 465.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (History: calendar and past completion.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 446.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 446.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Statistics: trends and performance.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 427.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 427.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Settings: preferences and data management.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 408.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 408.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Habit creation and details can be separate routes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 377.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 5 Tm /F2 18 Tf 23 TL (6. Technical architecture) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 188.7008 cm
+q
+.086275 .639216 .290196 rg
+n 0 180 436.5354 -20 re f*
+1 1 1 rg
+n 0 160 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 140 436.5354 -20 re f*
+1 1 1 rg
+n 0 120 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 100 436.5354 -20 re f*
+1 1 1 rg
+n 0 80 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 60 436.5354 -20 re f*
+1 1 1 rg
+n 0 40 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 20 436.5354 -20 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 165 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Area) Tj T* ET
+Q
+Q
+q
+1 0 0 1 127.8898 165 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Recommendation) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 145 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Framework) Tj T* ET
+Q
+Q
+q
+1 0 0 1 127.8898 145 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Flutter / Dart) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 125 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (State management) Tj T* ET
+Q
+Q
+q
+1 0 0 1 127.8898 125 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Riverpod or Bloc; justify the choice.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 105 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Navigation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 127.8898 105 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (go_router or Flutter Navigator) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 85 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Local database) Tj T* ET
+Q
+Q
+q
+1 0 0 1 127.8898 85 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (SQLite with Drift or another justified persistent database) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Notifications) Tj T* ET
+Q
+Q
+q
+1 0 0 1 127.8898 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (A maintained Flutter local-notification package) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Charts) Tj T* ET
+Q
+Q
+q
+1 0 0 1 127.8898 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (A maintained Flutter chart package) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Testing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 127.8898 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (flutter_test and mocks/fakes where useful) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Version control) Tj T* ET
+Q
+Q
+q
+1 0 0 1 127.8898 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Git with meaningful commits) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.862745 .898039 .870588 RG
+.35 w
+n 0 180 m 436.5354 180 l S
+n 0 0 m 436.5354 0 l S
+n 0 0 m 0 180 l S
+n 436.5354 0 m 436.5354 180 l S
+n 0 160 m 436.5354 160 l S
+n 0 140 m 436.5354 140 l S
+n 0 120 m 436.5354 120 l S
+n 0 100 m 436.5354 100 l S
+n 0 80 m 436.5354 80 l S
+n 0 60 m 436.5354 60 l S
+n 0 40 m 436.5354 40 l S
+n 0 20 m 436.5354 20 l S
+n 121.8898 0 m 121.8898 180 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+518.7402 17.00787 34.01575 22.67717 re
+f*
+0.36 0.4 0.37 rg
+BT
+/F1-0 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 520.4845 28.34646 Tm
+(Page 7) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+24 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+25 0 obj
+<<
+/Contents 26 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F1-0 27 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 7291
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.862745 .898039 .870588 RG
+.5 w
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 7.5 Tf 9 TL ET
+.356863 .4 .372549 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (HabitFlow | Flutter Internship Feature Requirements) Tj T* ET
+BT 1 0 0 1 520.4845 28.34646 Tm (Page 9) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 771.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (Suggested folder structure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 609.7008 cm
+q
+BT 1 0 0 1 0 147 Tm 13 TL /F1 9 Tf .090196 .129412 .105882 rg (lib/) Tj  T* (app/ \(app.dart, router.dart, theme/\)) Tj  T* (core/ \(database/, notifications/, utils/, widgets/\)) Tj  T* (features/) Tj  T* (onboarding/ \(data/, domain/, presentation/\)) Tj  T* (habits/ \(data/, domain/, presentation/\)) Tj  T* (tracking/ \(data/, domain/, presentation/\)) Tj  T* (history/ \(data/, domain/, presentation/\)) Tj  T* (statistics/ \(domain/, presentation/\)) Tj  T* (settings/ \(data/, presentation/\)) Tj  T* (main.dart) Tj  T* (test/ \(unit/, widget/, integration/\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 584.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (Layer responsibilities) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 566.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 566.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 13 TL /F2 9 Tf .090196 .129412 .105882 rg (Presentation:) Tj /F1 9 Tf ( screens, reusable widgets, UI state.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 547.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 547.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 13 TL /F2 9 Tf .090196 .129412 .105882 rg (Domain:) Tj /F1 9 Tf ( habit rules, completion calculations, streak logic.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 528.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 528.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 13 TL /F2 9 Tf .090196 .129412 .105882 rg (Data:) Tj /F1 9 Tf ( models, database operations, repositories.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 509.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 509.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 13 TL /F2 9 Tf .090196 .129412 .105882 rg (Services:) Tj /F1 9 Tf ( notifications, date utilities, export/import.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 490.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 490.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 13 TL /F2 9 Tf .090196 .129412 .105882 rg (Tests:) Tj /F1 9 Tf ( business rules independent of UI.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 472.7008 cm
+q
+.086275 .639216 .290196 RG
+.7 w
+.941176 .992157 .956863 rg
+n -8 -8 497.2283 29 re B*
+Q
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F2 9 Tf 13 TL (Widgets should not contain direct database queries or duplicated streak-calculation logic.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 441.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 5 Tm /F2 18 Tf 23 TL (7. Data model and integrity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 416.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (Habit entity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 191.7008 cm
+q
+.086275 .639216 .290196 rg
+n 0 220 436.5354 -20 re f*
+1 1 1 rg
+n 0 200 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 180 436.5354 -20 re f*
+1 1 1 rg
+n 0 160 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 140 436.5354 -20 re f*
+1 1 1 rg
+n 0 120 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 100 436.5354 -20 re f*
+1 1 1 rg
+n 0 80 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 60 436.5354 -20 re f*
+1 1 1 rg
+n 0 40 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 20 436.5354 -20 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 205 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Field) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 205 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Purpose) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 185 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (id) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 185 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Stable unique identifier) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 165 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (name / description) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 165 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Habit label and optional details) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 145 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (category / icon / color) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 145 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Organization and appearance) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 125 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (trackingType) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 125 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Binary, numeric, or duration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 105 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (targetValue / unit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 105 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Target amount and unit, where applicable) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 85 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (scheduleType / scheduledWeekdays) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 85 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Daily or selected weekdays) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (startDate) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (First eligible local date) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (reminderTime) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Optional local reminder time) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (isArchived) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Whether the habit is active) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (createdAt / updatedAt) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Creation and modification timestamps) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.862745 .898039 .870588 RG
+.35 w
+n 0 220 m 436.5354 220 l S
+n 0 0 m 436.5354 0 l S
+n 0 0 m 0 220 l S
+n 436.5354 0 m 436.5354 220 l S
+n 0 200 m 436.5354 200 l S
+n 0 180 m 436.5354 180 l S
+n 0 160 m 436.5354 160 l S
+n 0 140 m 436.5354 140 l S
+n 0 120 m 436.5354 120 l S
+n 0 100 m 436.5354 100 l S
+n 0 80 m 436.5354 80 l S
+n 0 60 m 436.5354 60 l S
+n 0 40 m 436.5354 40 l S
+n 0 20 m 436.5354 20 l S
+n 136.063 0 m 136.063 220 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+518.7402 17.00787 34.01575 22.67717 re
+f*
+0.36 0.4 0.37 rg
+BT
+/F1-0 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 520.4845 28.34646 Tm
+(Page 8) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+27 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/Contents 29 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F1-0 30 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+29 0 obj
+<<
+/Length 5723
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.862745 .898039 .870588 RG
+.5 w
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 7.5 Tf 9 TL ET
+.356863 .4 .372549 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (HabitFlow | Flutter Internship Feature Requirements) Tj T* ET
+BT 1 0 0 1 516.3145 28.34646 Tm (Page 10) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 771.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (Habit completion entity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 626.7008 cm
+q
+.086275 .639216 .290196 rg
+n 0 140 436.5354 -20 re f*
+1 1 1 rg
+n 0 120 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 100 436.5354 -20 re f*
+1 1 1 rg
+n 0 80 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 60 436.5354 -20 re f*
+1 1 1 rg
+n 0 40 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 20 436.5354 -20 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 125 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Field) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 125 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Purpose) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 105 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (id) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 105 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Unique record identifier) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 85 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (habitId) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 85 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Associated habit identifier) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (localDate) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Calendar date of the record) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (progressValue) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Recorded amount) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (isCompleted) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Whether the target was satisfied) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (completedAt) Tj T* ET
+Q
+Q
+q
+1 0 0 1 142.063 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Optional completion timestamp) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.862745 .898039 .870588 RG
+.35 w
+n 0 140 m 436.5354 140 l S
+n 0 0 m 436.5354 0 l S
+n 0 0 m 0 140 l S
+n 436.5354 0 m 436.5354 140 l S
+n 0 120 m 436.5354 120 l S
+n 0 100 m 436.5354 100 l S
+n 0 80 m 436.5354 80 l S
+n 0 60 m 436.5354 60 l S
+n 0 40 m 436.5354 40 l S
+n 0 20 m 436.5354 20 l S
+n 136.063 0 m 136.063 140 l S
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 601.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (Data integrity rules) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 583.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 583.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Every completion references an existing habit.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 564.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 564.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Habit IDs remain stable when names or schedules change.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 545.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 545.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Dates are stored and compared consistently.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 526.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 526.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Updates do not create duplicate completion records.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 507.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 507.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Ordinary edits preserve historical data.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 488.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 488.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Database failures produce recoverable errors rather than silent data loss.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 469.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 469.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Document deletion, archival, and import behavior.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 438.7008 cm
+q
+.086275 .639216 .290196 RG
+.7 w
+.941176 .992157 .956863 rg
+n -8 -8 497.2283 42 re B*
+Q
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 17 Tm /F2 9 Tf 13 TL -0.053038 Tw (Use a unique constraint on \(habitId, localDate\) for one aggregate daily record. If multiple numeric entries per day) Tj T* 0 Tw (are supported, store individual entries separately and calculate their aggregate.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+518.7402 17.00787 34.01575 22.67717 re
+f*
+0.36 0.4 0.37 rg
+BT
+/F1-0 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 520.4845 28.34646 Tm
+(Page 9) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+30 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/Contents 32 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F1-0 33 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 7152
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.862745 .898039 .870588 RG
+.5 w
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 7.5 Tf 9 TL ET
+.356863 .4 .372549 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (HabitFlow | Flutter Internship Feature Requirements) Tj T* ET
+BT 1 0 0 1 516.3145 28.34646 Tm (Page 11) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 764.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 5 Tm /F2 18 Tf 23 TL (8. Functional and non-functional requirements) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 739.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (Functional requirements) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 514.7008 cm
+q
+.086275 .639216 .290196 rg
+n 0 220 436.5354 -20 re f*
+1 1 1 rg
+n 0 200 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 180 436.5354 -20 re f*
+1 1 1 rg
+n 0 160 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 140 436.5354 -20 re f*
+1 1 1 rg
+n 0 120 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 100 436.5354 -20 re f*
+1 1 1 rg
+n 0 80 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 60 436.5354 -20 re f*
+1 1 1 rg
+n 0 40 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 20 436.5354 -20 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 205 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (ID) Tj T* ET
+Q
+Q
+q
+1 0 0 1 71.19685 205 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Requirement) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 185 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (FR-01) Tj T* ET
+Q
+Q
+q
+1 0 0 1 71.19685 185 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Create, edit, archive, and delete habits.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 165 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (FR-02) Tj T* ET
+Q
+Q
+q
+1 0 0 1 71.19685 165 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Configure daily and weekday-based schedules.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 145 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (FR-03) Tj T* ET
+Q
+Q
+q
+1 0 0 1 71.19685 145 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Track binary, numeric, and duration progress.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 125 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (FR-04) Tj T* ET
+Q
+Q
+q
+1 0 0 1 71.19685 125 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Calculate streaks using scheduled occurrences.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 105 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (FR-05) Tj T* ET
+Q
+Q
+q
+1 0 0 1 71.19685 105 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Display date-specific completion history.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 85 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (FR-06) Tj T* ET
+Q
+Q
+q
+1 0 0 1 71.19685 85 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Calculate statistics from persisted records.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (FR-07) Tj T* ET
+Q
+Q
+q
+1 0 0 1 71.19685 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Schedule and manage local reminders.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (FR-08) Tj T* ET
+Q
+Q
+q
+1 0 0 1 71.19685 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Save preferences and restore them after restart.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (FR-09) Tj T* ET
+Q
+Q
+q
+1 0 0 1 71.19685 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Support theme selection and category filtering.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (FR-10) Tj T* ET
+Q
+Q
+q
+1 0 0 1 71.19685 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Validate input and handle expected errors.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.862745 .898039 .870588 RG
+.35 w
+n 0 220 m 436.5354 220 l S
+n 0 0 m 436.5354 0 l S
+n 0 0 m 0 220 l S
+n 436.5354 0 m 436.5354 220 l S
+n 0 200 m 436.5354 200 l S
+n 0 180 m 436.5354 180 l S
+n 0 160 m 436.5354 160 l S
+n 0 140 m 436.5354 140 l S
+n 0 120 m 436.5354 120 l S
+n 0 100 m 436.5354 100 l S
+n 0 80 m 436.5354 80 l S
+n 0 60 m 436.5354 60 l S
+n 0 40 m 436.5354 40 l S
+n 0 20 m 436.5354 20 l S
+n 65.19685 0 m 65.19685 220 l S
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 489.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (Non-functional requirements) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 471.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 471.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 13 TL /F2 9 Tf .090196 .129412 .105882 rg (Reliability:) Tj /F1 9 Tf ( data survives force-close and normal device restart.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 452.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 452.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 13 TL /F2 9 Tf .090196 .129412 .105882 rg (Performance:) Tj /F1 9 Tf ( common actions feel immediate; avoid unnecessary full-screen refreshes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 433.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 433.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 13 TL /F2 9 Tf .090196 .129412 .105882 rg (Maintainability:) Tj /F1 9 Tf ( business rules are independently testable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 414.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 414.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 13 TL /F2 9 Tf .090196 .129412 .105882 rg (Accessibility:) Tj /F1 9 Tf ( controls have meaningful labels and usable touch targets.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 395.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 395.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 13 TL /F2 9 Tf .090196 .129412 .105882 rg (Compatibility:) Tj /F1 9 Tf ( test supported Android versions/devices for the selected Flutter SDK and plugins.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 376.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 376.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 13 TL /F2 9 Tf .090196 .129412 .105882 rg (Privacy:) Tj /F1 9 Tf ( data stays on-device unless the user explicitly exports it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 357.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 357.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 13 TL /F2 9 Tf .090196 .129412 .105882 rg (Resilience:) Tj /F1 9 Tf ( invalid input, denied permissions, and database errors do not crash the app.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+518.7402 17.00787 34.01575 22.67717 re
+f*
+0.36 0.4 0.37 rg
+BT
+/F1-0 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 516.3145 28.34646 Tm
+(Page 10) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+33 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+34 0 obj
+<<
+/Contents 35 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F1-0 36 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+35 0 obj
+<<
+/Length 10556
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.862745 .898039 .870588 RG
+.5 w
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 7.5 Tf 9 TL ET
+.356863 .4 .372549 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (HabitFlow | Flutter Internship Feature Requirements) Tj T* ET
+BT 1 0 0 1 516.3145 28.34646 Tm (Page 12) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 764.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 5 Tm /F2 18 Tf 23 TL (9. QA test cases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 415.7008 cm
+q
+.086275 .639216 .290196 rg
+n 0 340 436.5354 -20 re f*
+1 1 1 rg
+n 0 320 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 300 436.5354 -20 re f*
+1 1 1 rg
+n 0 280 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 260 436.5354 -20 re f*
+1 1 1 rg
+n 0 240 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 220 436.5354 -20 re f*
+1 1 1 rg
+n 0 200 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 180 436.5354 -20 re f*
+1 1 1 rg
+n 0 160 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 140 436.5354 -20 re f*
+1 1 1 rg
+n 0 120 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 100 436.5354 -20 re f*
+1 1 1 rg
+n 0 80 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 60 436.5354 -20 re f*
+1 1 1 rg
+n 0 40 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 20 436.5354 -20 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 325 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (ID) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 325 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Scenario) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 325 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Expected result) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 305 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (QA-01) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 305 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Create a valid habit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 305 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Appears on applicable scheduled dates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 285 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (QA-02) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 285 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Empty habit name) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 285 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Validation error; no record created.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 265 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (QA-03) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 265 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Complete binary habit twice) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 265 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Second action undoes completion; no duplicate.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 245 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (QA-04) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 245 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Record partial numeric progress) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 245 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Progress persists; incomplete below target.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 225 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (QA-05) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 225 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Reach numeric target) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 225 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Completion and statistics update.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 205 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (QA-06) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 205 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Restart application) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 205 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Habits, progress, theme, and schedules persist.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 185 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (QA-07) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 185 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Weekday-only habit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 185 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Unscheduled days do not break streak.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 165 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (QA-08) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 165 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Miss a scheduled date) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 165 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Streak follows documented date policy.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 145 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (QA-09) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 145 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Edit schedule) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 145 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Future eligibility changes; history remains intact.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 125 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (QA-10) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 125 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Deny notification permission) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 125 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (App remains usable; limitations explained.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 105 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (QA-11) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 105 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Archive a habit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 105 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Removed from active lists; history remains.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 85 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (QA-12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 85 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Delete a habit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 85 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Confirmation and documented cleanup occur.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (QA-13) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (No eligible habits on date) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (No invalid percentage or false missed state.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (QA-14) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Switch themes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Screens readable; preference persists.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (QA-15) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Import malformed JSON) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Fails safely without corrupting data.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (QA-16) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Small screen) Tj T* ET
+Q
+Q
+q
+1 0 0 1 207.2598 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (No overflow or inaccessible actions.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.862745 .898039 .870588 RG
+.35 w
+n 0 340 m 436.5354 340 l S
+n 0 0 m 436.5354 0 l S
+n 0 0 m 0 340 l S
+n 436.5354 0 m 436.5354 340 l S
+n 0 320 m 436.5354 320 l S
+n 0 300 m 436.5354 300 l S
+n 0 280 m 436.5354 280 l S
+n 0 260 m 436.5354 260 l S
+n 0 240 m 436.5354 240 l S
+n 0 220 m 436.5354 220 l S
+n 0 200 m 436.5354 200 l S
+n 0 180 m 436.5354 180 l S
+n 0 160 m 436.5354 160 l S
+n 0 140 m 436.5354 140 l S
+n 0 120 m 436.5354 120 l S
+n 0 100 m 436.5354 100 l S
+n 0 80 m 436.5354 80 l S
+n 0 60 m 436.5354 60 l S
+n 0 40 m 436.5354 40 l S
+n 0 20 m 436.5354 20 l S
+n 48.18898 0 m 48.18898 340 l S
+n 201.2598 0 m 201.2598 340 l S
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 390.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (Automated testing minimum) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 372.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 372.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Unit tests for streaks, completion rates, schedule eligibility, and date boundaries.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 353.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 353.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Tests for numeric targets and progress updates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 334.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 334.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Repository/database tests for create, update, archive, and delete.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 315.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 315.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Widget tests for creating a habit and marking it complete.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 296.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 296.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Tests for empty/error states and import validation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 277.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 277.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Manual regression checklist with actual pass/fail evidence.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+518.7402 17.00787 34.01575 22.67717 re
+f*
+0.36 0.4 0.37 rg
+BT
+/F1-0 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 516.3145 28.34646 Tm
+(Page 11) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+36 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+37 0 obj
+<<
+/Contents 38 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F1-0 39 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+38 0 obj
+<<
+/Length 11250
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.862745 .898039 .870588 RG
+.5 w
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 7.5 Tf 9 TL ET
+.356863 .4 .372549 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (HabitFlow | Flutter Internship Feature Requirements) Tj T* ET
+BT 1 0 0 1 516.3145 28.34646 Tm (Page 13) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 764.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 5 Tm /F2 18 Tf 23 TL (10. Seven-day implementation plan) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 595.7008 cm
+q
+.086275 .639216 .290196 rg
+n 0 160 436.5354 -20 re f*
+1 1 1 rg
+n 0 140 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 120 436.5354 -20 re f*
+1 1 1 rg
+n 0 100 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 80 436.5354 -20 re f*
+1 1 1 rg
+n 0 60 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 40 436.5354 -20 re f*
+1 1 1 rg
+n 0 20 436.5354 -20 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 145 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Day) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 145 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Tasks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 275.2913 145 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Deliverable) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 125 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 125 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Review requirements; plan UI, architecture, and schema.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 275.2913 125 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Project structure and navigation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 105 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 105 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Implement create/edit/delete and schedules.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 275.2913 105 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Working habit management.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 85 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 85 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Build dashboard and daily tracking.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 275.2913 85 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Persistent daily progress.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Implement streak engine and calendar.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 275.2913 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Correct historical tracking.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Add statistics, themes, and notifications.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 275.2913 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Functional secondary features.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Write tests, fix bugs, run regression.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 275.2913 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Test evidence and regression results.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Final QA, README, screenshots, and APK.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 275.2913 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Complete submission.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.862745 .898039 .870588 RG
+.35 w
+n 0 160 m 436.5354 160 l S
+n 0 0 m 436.5354 0 l S
+n 0 0 m 0 160 l S
+n 436.5354 0 m 436.5354 160 l S
+n 0 140 m 436.5354 140 l S
+n 0 120 m 436.5354 120 l S
+n 0 100 m 436.5354 100 l S
+n 0 80 m 436.5354 80 l S
+n 0 60 m 436.5354 60 l S
+n 0 40 m 436.5354 40 l S
+n 0 20 m 436.5354 20 l S
+n 48.18898 0 m 48.18898 160 l S
+n 269.2913 0 m 269.2913 160 l S
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 570.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (Prioritization guidance) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 539.7008 cm
+q
+.086275 .639216 .290196 RG
+.7 w
+.941176 .992157 .956863 rg
+n -8 -8 497.2283 42 re B*
+Q
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 17 Tm /F2 9 Tf 13 TL (If time is limited, prioritize correct tracking, persistence, and streak calculations over advanced animations or) Tj T* (optional features.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 508.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 5 Tm /F2 18 Tf 23 TL (11. Submission checklist) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 486.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 486.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Git repository with source code and meaningful commit history.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 467.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 467.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Working Android debug APK.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 448.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 448.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (README with setup and build instructions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 429.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 429.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Architecture explanation and database schema.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 410.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 410.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Screenshots of major user flows.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 391.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 391.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Unit and widget test files with execution results.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 372.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 372.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Manual QA checklist with pass/fail results.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 353.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 353.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Known issues and limitations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 334.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 334.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Short demonstration video of the main flows.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 315.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 315.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Explanation of technical decisions and possible improvements.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 284.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 5 Tm /F2 18 Tf 23 TL (12. Final acceptance criteria) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 262.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 262.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (App builds and launches on a supported Android device.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 243.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 243.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Users can create, edit, complete, archive, and delete habits.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 224.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 224.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Scheduled habits appear on correct dates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 205.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 205.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Progress persists after restart.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 186.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 186.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Streaks and statistics match stored records.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 167.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 167.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Historical data is not silently lost when a habit is edited.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 148.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 148.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Reminders work where permission and platform support allow.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 129.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 129.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Core screens handle empty, error, and confirmation states.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 110.7008 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 110.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Required automated tests pass.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 91.70079 cm
+BT /F1 7 Tf 8.4 TL ET
+.086275 .639216 .290196 rg
+BT 1 0 0 1 -6 6 Tm /F3 7 Tf 8.4 TL (l) Tj /F1 7 Tf 8.4 TL T* ET
+Q
+q
+1 0 0 1 67.02362 91.70079 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (A second developer can run the project using the README.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+518.7402 17.00787 34.01575 22.67717 re
+f*
+0.36 0.4 0.37 rg
+BT
+/F1-0 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 516.3145 28.34646 Tm
+(Page 12) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+39 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+40 0 obj
+<<
+/Contents 41 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F1-0 42 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+41 0 obj
+<<
+/Length 4833
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.862745 .898039 .870588 RG
+.5 w
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 7.5 Tf 9 TL ET
+.356863 .4 .372549 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (HabitFlow | Flutter Internship Feature Requirements) Tj T* ET
+BT 1 0 0 1 516.3145 28.34646 Tm (Page 14) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 771.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (Evaluation rubric) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 586.7008 cm
+q
+.086275 .639216 .290196 rg
+n 0 180 436.5354 -20 re f*
+1 1 1 rg
+n 0 160 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 140 436.5354 -20 re f*
+1 1 1 rg
+n 0 120 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 100 436.5354 -20 re f*
+1 1 1 rg
+n 0 80 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 60 436.5354 -20 re f*
+1 1 1 rg
+n 0 40 436.5354 -20 re f*
+.952941 .964706 .956863 rg
+n 0 20 436.5354 -20 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 165 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Area) Tj T* ET
+Q
+Q
+q
+1 0 0 1 331.9843 165 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 8 Tf 10 TL (Weight) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 145 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Functional correctness) Tj T* ET
+Q
+Q
+q
+1 0 0 1 331.9843 145 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (25%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 125 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Flutter and Dart fundamentals) Tj T* ET
+Q
+Q
+q
+1 0 0 1 331.9843 125 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (15%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 105 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Architecture and maintainability) Tj T* ET
+Q
+Q
+q
+1 0 0 1 331.9843 105 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (15%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 85 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (UI/UX quality) Tj T* ET
+Q
+Q
+q
+1 0 0 1 331.9843 85 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (10%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Data persistence and integrity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 331.9843 65 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (10%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Testing and debugging) Tj T* ET
+Q
+Q
+q
+1 0 0 1 331.9843 45 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (15%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Git, documentation, and communication) Tj T* ET
+Q
+Q
+q
+1 0 0 1 331.9843 25 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (10%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (Total) Tj T* ET
+Q
+Q
+q
+1 0 0 1 331.9843 5 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 2.4 Tm /F1 7.6 Tf 10 TL (100%) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.862745 .898039 .870588 RG
+.35 w
+n 0 180 m 436.5354 180 l S
+n 0 0 m 436.5354 0 l S
+n 0 0 m 0 180 l S
+n 436.5354 0 m 436.5354 180 l S
+n 0 160 m 436.5354 160 l S
+n 0 140 m 436.5354 140 l S
+n 0 120 m 436.5354 120 l S
+n 0 100 m 436.5354 100 l S
+n 0 80 m 436.5354 80 l S
+n 0 60 m 436.5354 60 l S
+n 0 40 m 436.5354 40 l S
+n 0 20 m 436.5354 20 l S
+n 325.9843 0 m 325.9843 180 l S
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 542.7008 cm
+q
+.086275 .639216 .290196 RG
+.7 w
+.941176 .992157 .956863 rg
+n -8 -8 497.2283 55 re B*
+Q
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 30 Tm /F2 9 Tf 13 TL (Suggested hiring threshold: 75/100, with no major failure in core data integrity or functional correctness. Treat) Tj T* (the score as a decision aid; for an intern, learning speed, debugging approach, and ability to explain trade-offs) Tj T* (also matter.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 517.7008 cm
+q
+.086275 .639216 .290196 rg
+BT 1 0 0 1 0 3.5 Tm /F2 12.5 Tf 16 TL (Final live-review challenge) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 485.7008 cm
+q
+.090196 .129412 .105882 rg
+BT 1 0 0 1 0 17 Tm /F1 9 Tf 13 TL (After submission, ask the intern to fix a streak-calculation bug or add a weekly schedule option. Observe whether they) Tj T* (investigate the issue, change the correct layer, add a test, and verify existing behavior still works.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 472.7008 cm
+Q
+q
+1 0 0 1 57.02362 465.7008 cm
+q
+1 w
+1 J
+.086275 .639216 .290196 RG
+n 0 0 m 481.2283 0 l S
+Q
+Q
+q
+1 0 0 1 57.02362 447.2008 cm
+q
+.356863 .4 .372549 rg
+BT 1 0 0 1 0 2.7 Tm /F1 7.8 Tf 10.5 TL (End of document - HabitFlow Flutter Internship Feature Requirements) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+518.7402 17.00787 34.01575 22.67717 re
+f*
+0.36 0.4 0.37 rg
+BT
+/F1-0 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 516.3145 28.34646 Tm
+(Page 13) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+42 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 43
+0000000000 65535 f 
+0000000015 00000 n 
+0000000187 00000 n 
+0000000331 00000 n 
+0000000380 00000 n 
+0000000579 00000 n 
+0000002038 00000 n 
+0000002089 00000 n 
+0000002196 00000 n 
+0000002308 00000 n 
+0000002391 00000 n 
+0000002592 00000 n 
+0000004232 00000 n 
+0000004433 00000 n 
+0000005775 00000 n 
+0000005976 00000 n 
+0000008763 00000 n 
+0000009019 00000 n 
+0000019722 00000 n 
+0000019830 00000 n 
+0000020086 00000 n 
+0000025125 00000 n 
+0000025233 00000 n 
+0000025489 00000 n 
+0000035632 00000 n 
+0000035740 00000 n 
+0000035996 00000 n 
+0000043340 00000 n 
+0000043448 00000 n 
+0000043704 00000 n 
+0000049480 00000 n 
+0000049588 00000 n 
+0000049844 00000 n 
+0000057049 00000 n 
+0000057157 00000 n 
+0000057413 00000 n 
+0000068023 00000 n 
+0000068131 00000 n 
+0000068387 00000 n 
+0000079691 00000 n 
+0000079799 00000 n 
+0000080055 00000 n 
+0000084941 00000 n 
+trailer
+<<
+/Size 43
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+85049
+%%EOF
+3 1 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+ /AF [44 0 R] /Names << /EmbeddedFiles << /Names [(Content Credentials) 44 0 R] >> >> >>
+endobj
+43 0 obj
+<< /Length 24278 /Type /EmbeddedFile /Subtype /application#2Fc2pa >>
+stream
+  ^÷jumb   jumdc2pa  Ä  ™ 8õqc2pa   ^∞jumb   Gjumdc2ma  Ä  ™ 8õqurn:c2pa:9822f5a7-3b81-4d63-80dc-dace01f22045   †jumb   )jumdc2as  Ä  ™ 8õqc2pa.assertions   	πjumb   #jumd@À2ªäHùß*÷ÙCic2pa.icon    bfdb image/svg+xml   	wbidb<svg width="716" height="716" viewBox="0 0 716 716" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M508.749 317.399C516.777 287.314 508.991 253.884 485.389 230.282C461.788 206.681 428.36 198.895 398.273 206.923C376.231 184.928 343.39 174.956 311.148 183.596C278.906 192.234 255.45 217.292 247.36 247.361C217.291 255.451 192.233 278.91 183.595 311.149C174.957 343.391 184.927 376.232 206.924 398.274C198.896 428.359 206.683 461.789 230.284 485.391C253.885 508.992 287.313 516.779 317.401 508.75C339.442 530.745 372.286 540.717 404.525 532.079C436.767 523.441 460.223 498.384 468.313 468.315C498.383 460.224 523.44 436.766 532.078 404.526C540.716 372.285 530.747 339.443 508.749 317.402V317.399ZM470.899 244.776C486.892 260.77 493.488 282.601 490.687 303.412L415.577 260.046C412.411 258.218 408.509 258.218 405.345 260.046L317.401 310.82V277.526C317.401 275.191 318.652 273.005 320.676 271.837L387.644 233.174C414.178 218.353 448.346 222.223 470.901 244.776H470.899ZM357.837 311.144L398.275 334.491V381.185L357.837 404.532L317.398 381.185V334.491L357.837 311.144ZM264.776 269.693C265.207 239.305 285.644 211.649 316.453 203.393C338.3 197.54 360.505 202.744 377.127 215.573L302.014 258.937C298.848 260.764 296.898 264.144 296.898 267.798V369.346L268.065 352.699C266.043 351.531 264.776 349.353 264.776 347.017V269.691V269.693ZM203.391 316.454C209.244 294.608 224.854 277.978 244.276 269.999V356.73C244.276 360.384 246.226 363.763 249.392 365.591L337.337 416.365L308.503 433.013C306.481 434.181 303.961 434.188 301.939 433.02L234.971 394.357C208.868 378.789 195.138 347.261 203.391 316.454ZM244.775 470.9C228.781 454.906 222.186 433.075 224.986 412.264L300.096 455.63C303.263 457.457 307.164 457.457 310.328 455.63L398.273 404.856V438.149C398.273 440.485 397.022 442.671 394.997 443.839L328.029 482.502C301.495 497.322 267.327 493.452 244.772 470.9H244.775ZM450.897 445.982C450.466 476.371 430.029 504.027 399.22 512.283C377.373 518.136 355.168 512.932 338.547 500.102L413.659 456.738C416.826 454.911 418.775 451.532 418.775 447.877V346.329L447.609 362.977C449.631 364.145 450.897 366.323 450.897 368.659V445.985V445.982ZM512.282 399.221C506.429 421.068 490.819 437.697 471.397 445.676V358.946C471.397 355.292 469.448 351.912 466.281 350.085L378.336 299.311L407.17 282.663C409.192 281.495 411.712 281.487 413.734 282.655L480.702 321.318C506.805 336.887 520.536 368.415 512.282 399.221Z" fill="black"/>
+</svg>
+  jumb   )jumdcbor  Ä  ™ 8õqc2pa.actions.v2    ﬂcbor¢gactionsÅ§factionlc2pa.createdqdigitalSourceTypexFhttp://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMediamsoftwareAgent¢dnameegpt-6gversionegpt-6dwhenx2026-10-28T12:57:56.554497ZrallActionsIncludedÙ   ¶jumb   (jumdcbor  Ä  ™ 8õqc2pa.hash.data    vcbor•jexclusionsÅ¢estart P¿flength^÷dnamenjumbf manifestcalgfsha256dhashX örsFÍ68~ﬂ–_ıÂ/4[ÂœûÃ€ô<†˝Åcpad@  âjumb   'jumdc2cl  Ä  ™ 8õqc2pa.claim.v2   Zcbor¶jinstanceIDx,xmp:iid:1cbad014-9b7b-4d27-836e-6b1a4be6ec96tclaim_generator_info£dnamegChatGPTdicon¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„ÒkspecVersione2.2.0isignaturexMself#jumbf=/c2pa/urn:c2pa:9822f5a7-3b81-4d63-80dc-dace01f22045/c2pa.signaturercreated_assertionsÉ¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„Ò¢curlx*self#jumbf=c2pa.assertions/c2pa.actions.v2dhashX }Ch∞∫√ÕºÄ¿ï˙Ê<6÷ùË‘∑”`+4òj¢curlx)self#jumbf=c2pa.assertions/c2pa.hash.datadhashX ‡bULÊÏS5HØùÎÓ5Ù‡ˇÔxJÌ©—ZÔªhdc:titleiimage.pdfcalgfsha256  P8jumb   (jumdc2cs  Ä  ™ 8õqc2pa.signature   Pcbor“ÑYË¢8$!ÇYà0ÇÑ0Çl†•¸ÈpåÚÄ1ÓDds0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0260422155105Z270423155104Z0G10	UUS10U
+OpenAI OpCo, LLC10UOpenAI Media Service0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ù∫jLMóÍÅâ∂—æ^XNr°ôﬂiq|Â!#”Å¢5úL£J<Ôn+øÊdÆ◊ÑKi$ZcœÍv
+ê≤e€|<ç·˛¡3wØ'ﬁ; :¥cáòÕMúø¥3D™T07F∏˝öyDsWU£c|›¨X/ÊzÆﬁ•ò√ìNHZ¯‡|§íK’l∫ ¬*»íæu‘îgµW™jöm00,◊Uaåj“S∂ x^ECûNí£ÄÒØ[—≤Î˛ãÔ∫◊7	ï´d-ô…áö¯ø.–ÁcÄñöy†7ì6£5…H…,òcÈDõ5¨πßSlúhs»
+9ÃIÛ £Çg0Çc0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0o+c0a09+0Ü-http://crt-c2pa.ssl.com/SSL.com-C2PA-I-R1.cer0$+0Ühttp://ocsp-c2pa.ssl.com0U 00
++ÉË^0)U%"0 ++$
++ÉË^0UÛùM‘Àùr¯F
+vG•hOt0Uˇ¿0	+ÉË^
++ÉË^
+03	+ÉË^&$019bc403-5cd7-7669-afe6-fdb17177d4280	*ÜHÜ˜ Ç Ç8óle°7 Ò˘Ìt∫’¶[5ıglœ+fi@Õı¸“rVﬂ ï(Í¯fﬁBC=¯x†h(â≠µÓ¸ı2“å∏_ÁlÄnÎ[|ó[0Á.B∏∆pö˛˛ 	¨5F’†åIEÄ√∫íU«Zùo“Îÿyõñ:ºDê44}ÙA•3ó/.lQR
+m=I∞À«ÜXÃ‹Óû.È∆9∏3\ ⁄Ó W3T.p(J%)Oí|.“˙›g.zËPx9Q∫É:⁄à~ê#êíıbXöÂ¬®sÜû≈ÿqÈÔ\d{ëÓ7/vòxVdÁoB—}íºÖjomdÖÿˇ"ñÌπÔ≤–\Ñ}h]5[K±≈iHyÊhé†ƒaò:L¯¿$yÂ¶h‡Ô˝÷ê÷.-AduV_ìî∂°úä<∂¿ËmÛ≈CÁv,h§ÚÊÀãàïË{*r$Å=!∆cm/%Ä£ô[™)•˝GÍ·˜kÂ˚[P&m+°Ç]1ı›b®|2‹L«•,r0PÄWìÇ‚ËÆ≥ßØY4ÆrÔ*ùÆx¨‚3ÏSµ…ô“(®*7°N´¸Ã~Xõ'mE·¥*úΩ0W°1. .…‚»T€°íOæ$5ò˛/i‹∏M„ﬁ/Ëlı¡ä‚”˛rw”®+‘WóÆáÿ æì∂âYS0ÇO0Ç7†'+c»ÃM-õÑQrlÙú^2QÆﬁ0	*ÜHÜ˜ 0O1&0$USSL.com C2PA RSA Root CA 202510U
+SSL Corporation10	UUS0251222181730Z301221181730Z0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç À:¥Õ∏úÀ)V∏yß¯kˆ˘ÿèr√¶ò≠*A⁄a.GRΩtQæ]ÏzÇ∂¿˚˙Ë'•ãË˛bÛ`Ò_H ssï‰NnÃNz5ﬁX·◊Ç‹“GCwõﬂHàyü£9§YN^‡NGóÚuB◊v=∂§"‹Ì∆o‘rFå÷Q«µ∑zÚì˘#'’ÄPuäp†hÈÁºÑ(|ú*Í)©¿/˛…vFU∞/cÍ}ûÙ∞D§@ﬁ@6\DäTkWHˇªo§’Íé¬◊|ÿºŒiø† MìE;ô.y“œûü)ªFŸxc0ñ3Qú^ìm˙Â4JXx≥)l]|∏uï<ôw!{ÿ¥JÎ⁄Õ«
+÷…¢ﬁÆó≥∂Qñ⁄íõ√≤ªPƒ˛∂§Lï]-íjObÂ‡*˜i†ú’πì ⁄—ª^O∆Ø˘)L–…ÏÎÛ≤qP{v'hë˘Pà∏w5ÿÕ°·◊”)ÁJ∆áTY$¬g≤m	5€∫Œ∏F•‡ã⁄·ßüjŒ`“ƒ˜¡ﬁsyU‡p¥ÔÍÃ«˛vâNf
+ià-Ì√F¢*‰å‘úWF-Xb’ ®˙~¯¬ŸajÀ5]†ì£≤e®/ÌÔòÁ¸~∫HÙ™°q¸ìØÍßNsài’B¿˘ÑíÖOÀT≥=:¯›)ey Cûñ∏áXñ!Ô—ë{ £Ç&0Ç"0Uˇ0ˇ 0Uˇ0)U%"0 ++$
++ÉË^0U9=G‹óèØà{MsÕÂÓ§•*0U 00
++ÉË^0U#0Ä¸*Ju:Ä˙ôcìsWÏæì∞}√{0x+l0j0$+0Ühttp://ocsp-c2pa.ssl.com0B+0Ü6http://crt-c2pa.ssl.com/SSL.com-C2PA-Root-2025-RSA.cer0	*ÜHÜ˜ Ç Œ6˙>Ôñ6-éØUfˇ{+ kVıÀ≠Ω*Å≠•¶–M£>ì‰ìi’‰å®nÊ7T‚%úÏef(<3=¢ö¢ªÕgdJÁæt!°n√´&ƒ;,⁄Uπ˝GN‡çxõ7Éƒt;≈GaÔmAr§€]CS…ñNÂ‡:ﬂ®›.—ØXó÷ÁÙ_r#<kœΩ9´åì®èßvY>·íı˜Ÿ˚Fb´nn‘àF†≥/*j_•N⁄¯‘¸ÃŸ£<©wE
+¡˘òπ9ÀÃ°q¿*Çq”‰ˆ%‚Q!m÷ﬂ‰SçoJ}é^¿∫’wy!ÅzŒÌ˜õé∂≤äBVùèkA*˛kúãÓ£(œ_ÛÈ–d÷Ó¬âKÎíœıØ¬'M∏ë°7%ôÊ˝Ä‹Ùº«7{æ¥-gX/Á√≥ãqÂDz0∂•≤u>[#~;”T¶:π«Ã3’j5zÅv/˛W⁄i¯>?ÔTèã{F√cû˙Ìƒ/pÑ+ˆVÇÙßÀ$◊l^${:Ω©X;i≥úè“ptˇãn&ª√´E«SñúGµ∆F´^ı¸àãh£5Â|jïeµ´Îπˇ∫∏‡õJG≤ŒÏ/â}ÓØúMƒ…Œı2=è˜&4˛"ãzÌ˘^^g_Q[€$V˚—Y°∑ﬁöf	∂—Ü.˙}~ïyõDf|6Öˆı£gsigTst2°itstTokensÅ°cvalYã0Çá	*ÜHÜ˜†Çx0Çt10	`ÜHe 0Åá*ÜHÜ˜	†xv0t
++Éø0010	`ÜHe  ù±ˇˆıpÁ?ﬂàÀ±<Òb=ïå]Ö»µΩ|ﬂÈhÔiï≥…®`Ñ20261028125758.740329Z0Ä	 ËìÎ¥3?w†Çf0Çˆ0Ç^†a€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ 0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0260408174626Z370709174626Z0u10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Leaf0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ Í ≈≠î˝˝'ü«xßa ˇ)a*˚°àÕ_®¢óùâ/ãë»º∞ñê=UÇ¡ñé6j≠âiËê€,D2É®
+ÕwÂ5ËÓ®d[˛∏‡éùÁ °(√5›ß7È"˜	Móö¥Ñs¿.|©PG(†¥i∞á)zY˛5B˘ŸiRJ 7ÚhÃÒ-∑Çñ KF\=§Ü∏KEf8¢NM' ï∫uÃNájüt√ $_ƒ~\Æ˛ÛïÌ ëﬂ<ıÜõ*^÷–›…˙»M√…ÑZI,‰8s`R∏LÓ∆Û∑∂ÿ›j©Œ ∫]÷ƒ\5dÚ#S?bée]p+‘…k	ÅERËWÌZF]⁄]vú%yhÉQ§òÑuëròUˇÿ„Cb±Ìig'Aº≈èÚj+ÉIË·-4ª9ØgΩ¥ï»≤ΩEgÕràî_UK,≠ØÌ•Ù$Øw>ÉädQèëå9ñK∞=Æ˙ô°>å=æ6°.ıcµ £x0v0Uˇ0 0Uˇ¿0U%ˇ0
++0U§'TÇ¢äÄ{=≈ÜÕ?pŸ¬ÉôQx0U#0ÄÚ∞«T=#CÖ‹ s–rÄ=∏®0	*ÜHÜ˜ ÇÅ  ˚$OA¿¿ºò≤2 ç ôH5OƒFV~ß>?∂•#˘*H>‡QùE@x¡ªÉNìP…õ'ñhﬂMŒÚˆ“y´ÔÍ¡⁄?ıòYÊpÕâÙÓGã™ÀÏˇå~·FÿëÊú∏‰4Fˇa“x¯}89„RÌ_fËs¿ r;‰®´éÜ*£7!˘;ﬂ{\TÿL«j*KœCt`Äs£…—wØá©˝µ±Ñjnøà*Œö°ö´¢ûÇH7≈cQó€R|og…iB’œı˚≠^ãê‚‡y<.Éjû•Ë%AèÖÌ‰¡†:ç˛ùRPÔáﬁ·dÕU˘! ﬂ∂)Ôü'n—∫4F´J"OÁbw›E#›a-¬1)èƒπ~y´¥W‘¡Ïœ·\{eI∞ÎM´§«'@N¶¥µèœ|√¥Cßv”^0cÓ®Æ5(td´Z5„[/:>N
+a÷0MCõˇN.∆!π>:, W0ujédK¢–	—◊†g&Amg¯pv∏%&V˘ë&'√KI0Ç~0Çf†ç ∆≈≈⁄∞ºÒNï•Íº0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174626Z21260409174626Z0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ âº‘π‚»°æaªﬁ<df~ßæúm”©0&<Ù‡k 9ﬂï4Ì©¢eH€7Ü2ÉéÃ
+J†¿Û4l†¿òÕ+ü•ÙÀ|Ÿ&ﬁ~…M¢Ôc[ëÊˆY®“˙N˘Ÿ8+ZÕ`ZòÅò®◊S∆„÷.H¨CW	ÈîÚG˘lEä`∑˜Æ/^¢5NÖ8Öiü4ù–MÿC=Õ4m¸cì¸”pªJËvËjNfI†Ì¸¯æÔö∑®w¨Ô∑8Ãπ‘*3ƒv÷@wÀ˛«]-@”ﬁã<¿÷@AôÀî?,} kR¸û P∑	GE·#U˙±OoTòïÙ}∫¯h·"z‹äëCã∂.C±b†æ $é.Ôø§—MË∏?1œ&=≈ PÍÚŸ$ dÌ’sû.px™ﬁV<˘‘Ä¢Ë≠Øˆ˚®£\Àh´D€0wÚƒ4tkUm∆á˚Ú2<ûqE˜ÏP˚˛÷1&ª–ƒMa‚B€Ø√+n_+Ê‚∞Ôç\DÕ¿s}è¢ÈΩmÇº%eÑ0iÌ £{0y0Uˇ0ˇ 0Uˇ0U%0
++0UÚ∞«T=#CÖ‹ s–rÄ=∏®0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç íÏ7\ﬁlÎd⁄Æ°	0rÆ‹rı;ºz=÷∆·/ˆÉ3}ËW@NLô™k‘ôŸã€k÷L¯ –Y3”°†8\#àD$˚á·ˆì'º°ÌL_g]ˇ5´1“Ï{‘@C7O¬Ñú∫d»∞¢~ö6¯·–Ç≥PC≤‡UΩÄî»YRNJtﬁ]«EXõ∑˙0™;‹Gº’.,π8c,yZ∑›U≠=BﬂàœÒh˛s ‘Z∑ﬁ$óë¿Ág˛‹¶
+Û•F≥QœçØ_„»∏@∆Ω„˘÷Kq–d]Âd¬K¿^w—=«[ûœ{˝îîÁKQ⁄˚dÙ´5îÒˆæ~+›≤ö=P›P√ñdém´sü(;w–óÌoEO±3._FÎÉ∂©aº◊ÇÆ¯Äo¬„i0Êm|:Dí+ò-Ø‹4¡æ•*HÁá»ﬁ8µ3 „ÑPpÒ≤KﬁçOˆë‹_Ö˙ÒÊ—◊ ßÓ¥üˆ!x)Å„pXwÜ§:KóÉFË⁄¬jv…©À!Eæe±†Ü.ÄºYKMõCm¥◊Ñ‡¸’»aêCéjù√Ò!<Ñ]˛;÷ÿ#9E_q˙2˝†ÄïDµO Â√t˝‚NárÜÙQáΩ‘µ+5lí§;kjù∫˝¿;úv¬’9I⁄„î>Pj◊L‚âaùÔÎœ≈√@npz80ÇÊ0ÇŒ†P;lâå$3,è˜Oé˚}ÇÏ0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174625Z21260409174625Z0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ˆíÈ“∫≠û·¨u®Vÿ™±≥jí_ñyıí∑-$¯ø¿Ø`æ¡öÕyö‹lö˛6ö¡ò§?‰,ù∫••Ps≥
+¬˘ÛƒI/xΩ“ÏºÁ?Ùõ—Ú†a¢,â% Q˘%ú“∆/ÙâƒA˛&”m5ÕÏª5`@®ÖQæˆÓêòÒ*ÿùzkjŸ.ŸcÛÂ\)≈Ü"¡ähÕÎ8û©Pñ[#C˚8ˇB|;:°Q/%…H‹1ˇPrÓ|°wÕoÅaÛ?ønË“±¶6‰k2˚˛w®^õ\››1êLéeˇÅÀAŒ(1S CŒHn}÷d≥)‰¥.:∑TZrVWÛ®j}ÔÊa›e»H	Iô2t
+¢Ã›ì S¨#ΩÇÖ ±ÔæÌ°w Ó:F3¢ûÏØÈ1f¥fo≤âì†~ï!ŒA¯^éÈÕπ¿’3]x––'1œP0rs⁄j¬¿ìœ≠‹dáˆ˚Nàvı>Ôˇí,ôw.ˆ‹ò∂ù	:˝Ù	«è_ZÈ~H	+µäÉÚ[<,Øë¢ùA∑Rh—ø∞¿⁄O`ΩÓ)™Ìáçq\(åçà£%cEÿ¸{aèlFT;\…∞ÇØÉ»±#?ü[Ó¢◊Tµ*SÆªÖ€¶˙óûÏÑârÛz@…∂ÖXG[Ò$a9¢Lﬁÿ∆®"Úûø[L,À £f0d0Uˇ0ˇ0Uˇ0UX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç X¯ÅëòÚla˛»Ü÷[Ñ¶÷æ∏¶]]IÀ∏°)Õ-ù∏X˘Ñâ=<¯o’j¥*¢UígÅô^µT˚öFÄ„Q S¿¡àWﬁÔÇU~„Ù}Î&¸Éˇ!®¡¨ﬁ€ì´Õ–0v:ìùŒ™g9.Ätﬂm~v/ÈÍPAã8=lÂ‡>Ó/€dT6^æbE∂—!¥Ä<åÎ⁄ú÷J©’Te[k—X~¿IáÎÎK_í;î◊öÜˆ°YŒG8¨√∞td—¿R;°±{(k·ió¯(;'ˇÆ§û˜eÀ†ÙÍπΩîŒD‚ò±
+HhÓU©!•`è˛ ÷}—{Ü úÛ®x–∆⁄@.»Å\b®*¡˚VÁyéØÏÂ€”p˛FÃc®dÒ<ÈØ•dº^øÖ-∞Œ„π”§◊RªpãÜù˚.ø
+ˆ“U+#B+C\Ï°Ça?œqÌ∞˜óÈ‰À¬<¸¨w∑∂‹ ¡LÈâ≤≤/√~ídúµÑﬁÃñ˝â∞KµC}“È≠Ü˝Ÿ-üΩ Ó¿¥GV#|HëNgâ {b¡…^UÒˆ∆Q#WoÔáæ Fyæî±» (ùïäà&UfRÔŸK∫®ZÈ¬,≠ü√\BÛ°ı'dyqå
+Zû˝π˘Eyp·jµ7ñéX˝EøT%åÉ=Ÿ&3#–Xw¶∏1Çh0Çd0Åì0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	`ÜHe †Ç%0	*ÜHÜ˜	1*ÜHÜ˜	0/	*ÜHÜ˜	1" åi∂„x¶ƒÊ∞H√≥A€/∑;"Ç2–|”ü3Há¸=˝0Å’*ÜHÜ˜	/1Å≈0Å¬0Åø0Åº ΩOπ≤êLÅ6gànÔA·m˛Ÿ"ùø[íJ–¢ƒ`F"z0Åó0§}0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ ÇÄû›⁄˝èã‘NÉ¸†UV≠^ºÒ0PQS—!˛ÄÕ§
+©Q’NY∂ù>ùgÉ'eß	Vπ|Ü‘πf3ö`èà°ã»Z· UråJö—°ùDr>}$ªSMÆöFÇÚ|Ä,ÂƒT	·Û%∞%GC„¬”Rñà3˚È‡v	P†Mó4g¬∏ÑBV@—€¿<ˇaÅÙa´œÖi8üô Ä®±óÕï≈‹ˇ˚ªñÙï´ˆÎ”ƒÏ{x∞H≤”’•b†»à
+`Ïµ⁄b:3˝p(œ%Í0Å«xå«ÅKÊM0"jEF…Ô u≈ÃærÅﬁ¨.\ÉBÛ≈	YÍO£Ê˝-Y¸¬ûçiä/©ƒ9uIÍuI¯º=˘àÀW™◊ñ<$˝#N·|îıÙ§e˛-€56∆	Áâ‚X1ä—◊‰¢B«@DYÚ/¶–é¢Äﬂ¯G√Øí’É‡:•˛∂ÁÆ<jhEu]∞Ï I1é≤A6?O±g^ÒC¯Ü„<kÎX∆UèerVals°hocspValsÅY◊0Ç”
+ †ÇÃ0Ç»	+0Çπ0Çµ0ÅÈ¢˚W¢¿K∆∑ûãUuz=T~dC]20261028120158Z0Åò0Åï0I0	+ ﬂÇ7S^Sÿ3±‡=$5ÒuÊ·
+9=G‹óèØà{MsÕÂÓ§•*•¸ÈpåÚÄ1ÓDdsÄ 20261028120158Z†20261104120157Z°"0 0	+020161030120158Z°#0!0	+0®NR$ —gd—ì$FñJ0	*ÜHÜ˜ ÇÅ ¿hoíéÌ˙rˇ˚AÉA”Æ+¿V$làT,æÇd{d˙œ∏NG∆m„ôØ˙K~∆ÓÈ~ IΩNµ∞ñ*bÅ˙‚rä∑éüyÙ⁄Õ4¬&.Jx≥8¥v5iÀXÆá®_>i|UﬁF`Âï4-@]ÿÑÖä’Y$•Õca/ôI‡πÓD
+GR_ËF›µi§6Ö§åØTN,√"§=Ì1÷£å,Í6fUªÆü>Ì∑c√”êCkç—zØa vÓ◊;âPZ@.ùõ˜ ÷n†@|E:Ao©ÁV7-' @ù|;≤qæ’ÄXhÏ~Õ¸DoàÌ¶SµÔäÎ±’l¨¢Óv∏Ø'›/mnbÌM´	äÒO”7õ≥?xÜËr˜ú◊ˇ∫[?^ZÆG>;!ÎWŒ´[ı•Äù(ªÁÑaÀÑ⁄;ÀEâ-
+ﬁÄ¸» Öåfadæ
+i¢£Ï≈Æ¯"pêÜT≥‡yQ∏p‹ØÃé™üø@ÃØ†Ç10Ç-0Ç)0Ç†crÍ˜\M±'•_w›üv0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0260102211155Z270102211154Z0M10	UUS10U
+SSl Corp1+0)U"SSL.com C2PA ICA R1 OCSP Responder0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ œÇoã#mŸ™èdMˆ^ˇ‡™q≤¨é≤‹••»xd*üö5¨W´(v√⁄\û&≤¬·hAtQ ëI‡»≈’€tÙ¡‘s~x=gË!;h:&'§‰Èàßû€YcGø'7Í>N!¸≤¬Ô≤"Ña˜˜*„≠È	 &WadÛjÄ¨~e:Æs›L›®i;≈wXÈ‘≠»ıü4íO›î~êMà†OOî˜‘v'¶¶ÿ”£*ÌÎ`„yV	Iî•`sÀ¬lAÛœzyî≠ÙˇëxÁ”≥[p€ÚéÅ‹äÃG‚¢Jº∫•RUeY=ßáÉız√R¸ŒuÙËyƒëZÙsîÀt˛}Éçü !ıG˛C[œ^-Æz˙]‘YÕ´Á©Kÿ’ó,—cΩÍ:€¯W_)Z“ÕÆdPû√ÙÄ"”ä≠¢ªãqù·∏%¥^RuÂ˙ú,'µ¬L\;PÕ¨≠†Bûxí›d;->∂Z:îápçö3+◊Ó
+P3,≈„n∞ê
+(kq]«÷y‡Ê' £Åá0ÅÑ0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0	+0 0U%0
++	0U˚W¢¿K∆∑ûãUuz=T~dC]0UˇÄ0	*ÜHÜ˜ Ç 1Âµkv◊¬€*}ÈèÆ‹õ/ÔﬁÊÅxÁ5¶°R[nk\ãti* ÄÕñà·Ümπ◊V†ì©o"û‘VT)î⁄ø2,¬åÍ$T_4*◊Sf¬øGˆˇÏùáQû4AÀdAx~1¨6áLu∆ì∆¥MÌáÒÄ5˚Pè«OZ˚q	æöc˛Àá~Ü!ñ?
+ÅÃWáT&v›®•Ïq≠ó:7ôË—•“!¿ì£˚oﬁId˝ŸµZ∞,:ø?æR¢)‘Ì∞.ä,J#1˙ß∞Ü∂àï∞⁄ê<{“fA,ÆjK ˜S>òΩ|≤ƒµÈ4ø+ñI+©B1ﬂ¬…-ûïΩe∫˘{2{X¡Ò´V&)Px;7
+Ñ*Bá·nÛﬂ|ª R_É}Dùÿ≈≤JµÂ–Ä√ÒŸ«ò eöˇëGÚ≠ÀyO_IAe¬ºO´Wtç[«ÿâã¶‡æ9ífœ≥¯ú€rõ‹®‡|ˇ ÕÇE„KéÒAÿ˛©É“Çúíi}.Vpiã…∏ÙrÌ¯˝Î;Ã»ÍµRO©#ìe.Å[ﬁì≈ÿWè@«"P„9zá˙ƒ¡¸!KÜ¸~øí‹OÜcäΩ^CDÑW2‡Óàﬂ∏BSßz◊‰¯ŸZiïü/ƒÃ«qNÿè≠W]mõÏ|—Ô@ÆBË≥”…2ƒSi9«6ÓÚúD¸=¬Á˘Á⁄yd«cpadY&u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ˆY Ñ÷/iïπ©"<ÓÅ8†®ñìçºçä'∏·#¿W¬òßB6Œ1éΩ/Ò,Ÿ%¶'w‹é∫bL£∑¡œÀ"“t3h4À@Q¥àõc>Üªu_'&$r'ùÓ+BHv/pÅêœ!©ÔìæöÎÌ'¶pYgü	ı◊	Ö
+/}ó‰	»ïJ—åã⁄ˇä°ôˇæ⁄0¯7.ûF˘-o=eí˛¨-YtÇ5z"àngfÀ‡U]gG∂Ôÿ‘¬."∏óø››ıˇ8æ˜ö≥˚—çë1ÚÇ0%ºHÿÇNOg«Íâ·ÓS¥M©+ng‰>ûœ˝<œ©{T¶Ãc|UT√…Æ¯c*¥r
+endstream
+endobj
+44 0 obj
+<< /AFRelationship /C2PA_Manifest /Desc (Content Credentials) /F (Content Credentials) /EF << /F 43 0 R >> /Subtype (application/c2pa) /Type /Filespec /UF (Content Credentials) >>
+endobj
+xref
+3 1
+0000085988 00001 n 
+43 2
+0000086123 00000 n 
+0000110504 00000 n 
+trailer
+<< /Size 45 /Root 3 1 R /Prev 85049 >>
+startxref
+110700
+%%EOF
