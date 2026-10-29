@@ -6,6 +6,7 @@ import 'package:habitflow/habits/habit_details_screen.dart';
 import 'package:habitflow/habits/home_dashboard_screen.dart';
 import 'package:habitflow/history/history_calendar_screen.dart';
 import 'package:habitflow/onboarding/onboarding_screen.dart';
+import 'package:habitflow/onboarding/profile_setup_screen.dart';
 import 'package:habitflow/onboarding/splash_screen.dart';
 import 'package:habitflow/settings/settings_screen.dart';
 import 'package:habitflow/statistics/statistics_screen.dart';
@@ -25,6 +26,10 @@ class AppRouter {
       GoRoute(
         path: '/onboarding',
         builder: (context, state) => const OnboardingScreen(),
+      ),
+      GoRoute(
+        path: '/profile-setup',
+        builder: (context, state) => const ProfileSetupScreen(),
       ),
       ShellRoute(
         navigatorKey: _shellNavigatorKey,

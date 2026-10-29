@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:habitflow/onboarding/onboarding_assets.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -39,10 +40,17 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
 
     _animController.forward();
 
-    // Automatically navigate to onboarding after 2.2 seconds
-    _navigationTimer = Timer(const Duration(milliseconds: 2300), () {
-      if (mounted) {
-        context.go('/onboarding');
+    // Navigate after splash animation: to home if already onboarded, or to onboarding
+    _navigationTimer = Timer(const Duration(milliseconds: 2300), () async {
+      if (!mounted) return;
+      try {
+        final prefs = await SharedPreferences.getInstance();
+        final hasSeen = prefs.getBool('has_completed_onboarding') ?? false;
+        if (mounted) {
+          context.go(hasSeen ? '/main/home' : '/onboarding');
+        }
+      } catch (_) {
+        if (mounted) context.go('/onboarding');
       }
     });
   }
@@ -54,9 +62,17 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
     super.dispose();
   }
 
-  void _skipToOnboarding() {
+  void _skipToOnboarding() async {
     _navigationTimer?.cancel();
-    context.go('/onboarding');
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final hasSeen = prefs.getBool('has_completed_onboarding') ?? false;
+      if (mounted) {
+        context.go(hasSeen ? '/main/home' : '/onboarding');
+      }
+    } catch (_) {
+      if (mounted) context.go('/onboarding');
+    }
   }
 
   @override

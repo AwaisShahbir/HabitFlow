@@ -47,7 +47,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         curve: Curves.easeInOutCubic,
       );
     } else {
-      context.go('/main/home');
+      context.go('/profile-setup');
     }
   }
 
@@ -82,7 +82,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
                       TextButton(
-                        onPressed: () => context.go('/main/home'),
+                        onPressed: () => context.go('/profile-setup'),
                         style: TextButton.styleFrom(
                           foregroundColor: isDark ? const Color(0xFF94A3B8) : const Color(0xFF64748B),
                           padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
