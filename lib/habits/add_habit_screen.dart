@@ -34,13 +34,48 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
   late String _icon;
 
   final List<Map<String, dynamic>> _categories = [
-    {'name': 'Health', 'icon': Icons.favorite, 'color': AppColors.categoryHealth, 'colorHex': '#EF4444'},
-    {'name': 'Fitness', 'icon': Icons.fitness_center, 'color': AppColors.categoryFitness, 'colorHex': '#F97316'},
-    {'name': 'Learning', 'icon': Icons.menu_book, 'color': AppColors.categoryLearning, 'colorHex': '#3B82F6'},
-    {'name': 'Productivity', 'icon': Icons.bolt, 'color': AppColors.categoryProductivity, 'colorHex': '#EAB308'},
-    {'name': 'Mindfulness', 'icon': Icons.self_improvement, 'color': AppColors.categoryMindfulness, 'colorHex': '#8B5CF6'},
-    {'name': 'Personal', 'icon': Icons.person, 'color': AppColors.categoryPersonal, 'colorHex': '#06B6D4'},
-    {'name': 'Other', 'icon': Icons.category, 'color': AppColors.categoryOther, 'colorHex': '#64748B'},
+    {
+      'name': 'Health',
+      'icon': Icons.favorite,
+      'color': AppColors.categoryHealth,
+      'colorHex': '#EF4444'
+    },
+    {
+      'name': 'Fitness',
+      'icon': Icons.fitness_center,
+      'color': AppColors.categoryFitness,
+      'colorHex': '#F97316'
+    },
+    {
+      'name': 'Learning',
+      'icon': Icons.menu_book,
+      'color': AppColors.categoryLearning,
+      'colorHex': '#3B82F6'
+    },
+    {
+      'name': 'Productivity',
+      'icon': Icons.bolt,
+      'color': AppColors.categoryProductivity,
+      'colorHex': '#EAB308'
+    },
+    {
+      'name': 'Mindfulness',
+      'icon': Icons.self_improvement,
+      'color': AppColors.categoryMindfulness,
+      'colorHex': '#8B5CF6'
+    },
+    {
+      'name': 'Personal',
+      'icon': Icons.person,
+      'color': AppColors.categoryPersonal,
+      'colorHex': '#06B6D4'
+    },
+    {
+      'name': 'Other',
+      'icon': Icons.category,
+      'color': AppColors.categoryOther,
+      'colorHex': '#64748B'
+    },
   ];
 
   @override
@@ -50,14 +85,19 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
     _nameController = TextEditingController(text: h?.name ?? '');
     _descController = TextEditingController(text: h?.description ?? '');
     _targetController = TextEditingController(
-      text: h != null ? (h.targetValue == h.targetValue.roundToDouble() ? h.targetValue.toInt().toString() : h.targetValue.toString()) : '1',
+      text: h != null
+          ? (h.targetValue == h.targetValue.roundToDouble()
+              ? h.targetValue.toInt().toString()
+              : h.targetValue.toString())
+          : '1',
     );
     _unitController = TextEditingController(text: h?.unit ?? 'times');
 
     _selectedCategory = h?.category ?? 'Health';
     _trackingType = h?.trackingType ?? HabitTrackingType.binary;
     _scheduleType = h?.scheduleType ?? HabitScheduleType.daily;
-    _scheduledDays = h != null ? List.from(h.scheduledDays) : [1, 2, 3, 4, 5, 6, 7];
+    _scheduledDays =
+        h != null ? List.from(h.scheduledDays) : [1, 2, 3, 4, 5, 6, 7];
     _reminderTime = h?.reminderTime;
     _colorHex = h?.colorHex ?? '#16A34A';
     _icon = h?.icon ?? 'water_drop';
@@ -79,7 +119,15 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
       case HabitScheduleType.weekdays:
         return 'Weekdays (Mon - Fri)';
       case HabitScheduleType.custom:
-        const daysMap = {1: 'Mon', 2: 'Tue', 3: 'Wed', 4: 'Thu', 5: 'Fri', 6: 'Sat', 7: 'Sun'};
+        const daysMap = {
+          1: 'Mon',
+          2: 'Tue',
+          3: 'Wed',
+          4: 'Thu',
+          5: 'Fri',
+          6: 'Sat',
+          7: 'Sun'
+        };
         return _scheduledDays.map((d) => daysMap[d] ?? '').join(', ');
     }
   }
@@ -128,13 +176,17 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
       // Update existing habit (preserving historical start date and createdAt)
       final updated = widget.habitToEdit!.copyWith(
         name: trimmedName,
-        description: _descController.text.trim().isEmpty ? null : _descController.text.trim(),
+        description: _descController.text.trim().isEmpty
+            ? null
+            : _descController.text.trim(),
         category: _selectedCategory,
         icon: _icon,
         colorHex: _colorHex,
         trackingType: _trackingType,
         targetValue: targetVal,
-        unit: _unitController.text.trim().isEmpty ? null : _unitController.text.trim(),
+        unit: _unitController.text.trim().isEmpty
+            ? null
+            : _unitController.text.trim(),
         scheduleType: _scheduleType,
         scheduledDays: _scheduledDays,
         reminderTime: _reminderTime,
@@ -168,13 +220,17 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
       final newHabit = Habit(
         id: const Uuid().v4(),
         name: trimmedName,
-        description: _descController.text.trim().isEmpty ? null : _descController.text.trim(),
+        description: _descController.text.trim().isEmpty
+            ? null
+            : _descController.text.trim(),
         category: _selectedCategory,
         icon: _icon,
         colorHex: _colorHex,
         trackingType: _trackingType,
         targetValue: targetVal,
-        unit: _unitController.text.trim().isEmpty ? null : _unitController.text.trim(),
+        unit: _unitController.text.trim().isEmpty
+            ? null
+            : _unitController.text.trim(),
         scheduleType: _scheduleType,
         scheduledDays: _scheduledDays,
         startDate: DateTime(now.year, now.month, now.day),
@@ -227,12 +283,14 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
             children: [
               // Habit Name
-              const Text('Habit Name *', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 14)),
+              const Text('Habit Name *',
+                  style: TextStyle(fontWeight: FontWeight.w600, fontSize: 14)),
               const SizedBox(height: 8),
               TextFormField(
                 controller: _nameController,
                 maxLength: 60,
-                decoration: const InputDecoration(hintText: 'e.g., Drink Water, Read a Book'),
+                decoration: const InputDecoration(
+                    hintText: 'e.g., Drink Water, Read a Book'),
                 validator: (val) {
                   if (val == null || val.trim().isEmpty) {
                     return 'Please enter a habit name';
@@ -246,17 +304,20 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
               const SizedBox(height: 16),
 
               // Description
-              const Text('Description (Optional)', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 14)),
+              const Text('Description (Optional)',
+                  style: TextStyle(fontWeight: FontWeight.w600, fontSize: 14)),
               const SizedBox(height: 8),
               TextFormField(
                 controller: _descController,
                 maxLines: 2,
-                decoration: const InputDecoration(hintText: 'Stay hydrated for energy and focus...'),
+                decoration: const InputDecoration(
+                    hintText: 'Stay hydrated for energy and focus...'),
               ),
               const SizedBox(height: 20),
 
               // Category Selector
-              const Text('Category', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 14)),
+              const Text('Category',
+                  style: TextStyle(fontWeight: FontWeight.w600, fontSize: 14)),
               const SizedBox(height: 10),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
@@ -269,15 +330,24 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
                         selected: isSelected,
                         label: Row(
                           children: [
-                            Icon(cat['icon'] as IconData, size: 16, color: isSelected ? Colors.white : cat['color'] as Color),
+                            Icon(cat['icon'] as IconData,
+                                size: 16,
+                                color: isSelected
+                                    ? Colors.white
+                                    : cat['color'] as Color),
                             const SizedBox(width: 6),
                             Text(cat['name'] as String),
                           ],
                         ),
                         selectedColor: AppColors.primaryGreen,
                         labelStyle: TextStyle(
-                          color: isSelected ? Colors.white : (theme.brightness == Brightness.dark ? AppColors.textPrimaryDark : AppColors.textPrimaryLight),
-                          fontWeight: isSelected ? FontWeight.w600 : FontWeight.normal,
+                          color: isSelected
+                              ? Colors.white
+                              : (theme.brightness == Brightness.dark
+                                  ? AppColors.textPrimaryDark
+                                  : AppColors.textPrimaryLight),
+                          fontWeight:
+                              isSelected ? FontWeight.w600 : FontWeight.normal,
                         ),
                         onSelected: (val) {
                           setState(() {
@@ -293,7 +363,8 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
               const SizedBox(height: 24),
 
               // Tracking Type Switcher
-              const Text('Tracking Type', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 14)),
+              const Text('Tracking Type',
+                  style: TextStyle(fontWeight: FontWeight.w600, fontSize: 14)),
               const SizedBox(height: 10),
               SegmentedButton<HabitTrackingType>(
                 segments: const [
@@ -341,12 +412,15 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const Text('Daily Target *', style: TextStyle(fontWeight: FontWeight.w600)),
+                          const Text('Daily Target *',
+                              style: TextStyle(fontWeight: FontWeight.w600)),
                           const SizedBox(height: 8),
                           TextFormField(
                             controller: _targetController,
-                            keyboardType: const TextInputType.numberWithOptions(decimal: true),
-                            decoration: const InputDecoration(hintText: 'e.g. 2000'),
+                            keyboardType: const TextInputType.numberWithOptions(
+                                decimal: true),
+                            decoration:
+                                const InputDecoration(hintText: 'e.g. 2000'),
                             validator: (val) {
                               final numVal = double.tryParse(val ?? '');
                               if (numVal == null || numVal <= 0) {
@@ -364,11 +438,13 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const Text('Unit', style: TextStyle(fontWeight: FontWeight.w600)),
+                          const Text('Unit',
+                              style: TextStyle(fontWeight: FontWeight.w600)),
                           const SizedBox(height: 8),
                           TextFormField(
                             controller: _unitController,
-                            decoration: const InputDecoration(hintText: 'e.g. ml, mins'),
+                            decoration: const InputDecoration(
+                                hintText: 'e.g. ml, mins'),
                           ),
                         ],
                       ),
@@ -381,8 +457,10 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
               // Schedule Setting
               ListTile(
                 contentPadding: EdgeInsets.zero,
-                leading: const Icon(Icons.calendar_month, color: AppColors.primaryGreen),
-                title: const Text('Schedule', style: TextStyle(fontWeight: FontWeight.w600)),
+                leading: const Icon(Icons.calendar_month,
+                    color: AppColors.primaryGreen),
+                title: const Text('Schedule',
+                    style: TextStyle(fontWeight: FontWeight.w600)),
                 subtitle: Text(_scheduleSubtitle),
                 trailing: const Icon(Icons.chevron_right),
                 onTap: _openScheduleSheet,
@@ -392,8 +470,10 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
               // Reminder Setting
               ListTile(
                 contentPadding: EdgeInsets.zero,
-                leading: const Icon(Icons.notifications_active, color: AppColors.primaryGreen),
-                title: const Text('Reminder', style: TextStyle(fontWeight: FontWeight.w600)),
+                leading: const Icon(Icons.notifications_active,
+                    color: AppColors.primaryGreen),
+                title: const Text('Reminder',
+                    style: TextStyle(fontWeight: FontWeight.w600)),
                 subtitle: Text(_reminderTime ?? 'Off'),
                 trailing: const Icon(Icons.chevron_right),
                 onTap: _openReminderSheet,

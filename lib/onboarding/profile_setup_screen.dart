@@ -4,7 +4,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:habitflow/core/user_profile_provider.dart';
-import 'package:habitflow/habits/widgets/plant_data.dart';
 import 'package:habitflow/onboarding/onboarding_assets.dart';
 
 class ProfileSetupScreen extends ConsumerStatefulWidget {
@@ -432,19 +431,10 @@ class _ProfileSetupScreenState extends ConsumerState<ProfileSetupScreen> {
   }
 
   Widget _buildLargePreview(UserProfile profile) {
-    if (profile.avatarType == 'preset') {
-      return ClipOval(
-        child: Image.memory(
-          kAvatarBytes,
-          width: 88,
-          height: 88,
-          fit: BoxFit.cover,
-        ),
-      );
-    } else if (profile.avatarType == 'icon') {
+    if (profile.avatarType == 'icon' || profile.avatarType == 'preset') {
       final match = kPresetAvatarOptions.firstWhere(
         (o) => o.key == profile.avatarKey,
-        orElse: () => kPresetAvatarOptions[1],
+        orElse: () => kPresetAvatarOptions.first,
       );
       return ClipOval(
         child: Container(
@@ -488,12 +478,7 @@ class _ProfileSetupScreenState extends ConsumerState<ProfileSetupScreen> {
   }
 
   Widget _buildAvatarOptionThumbnail(PresetAvatarOption option) {
-    if (option.type == 'preset') {
-      return Image.memory(
-        kAvatarBytes,
-        fit: BoxFit.cover,
-      );
-    } else if (option.type == 'icon') {
+    if (option.type == 'icon' || option.type == 'preset') {
       return Icon(
         option.icon ?? Icons.eco_rounded,
         size: 26,

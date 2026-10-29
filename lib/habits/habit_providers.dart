@@ -205,12 +205,16 @@ final analyticsRangeProvider =
 class HabitAnalytics {
   final double overallCompletionRate;
   final int maxCurrentStreak;
+  final int bestStreak;
+  final int totalCompletions;
   final List<HabitPerformanceItem> habitPerformances;
   final List<DailyTrendItem> dailyTrends;
 
   const HabitAnalytics({
     required this.overallCompletionRate,
     required this.maxCurrentStreak,
+    required this.bestStreak,
+    required this.totalCompletions,
     required this.habitPerformances,
     required this.dailyTrends,
   });
@@ -267,6 +271,7 @@ final appAnalyticsProvider = FutureProvider<HabitAnalytics>((ref) async {
   );
 
   int maxStreak = 0;
+  int maxBestStreak = 0;
   int totalScheduledAll = 0;
   int totalCompletedAll = 0;
 
@@ -281,6 +286,13 @@ final appAnalyticsProvider = FutureProvider<HabitAnalytics>((ref) async {
     );
     if (streak > maxStreak) {
       maxStreak = streak;
+    }
+    final best = StreakEngine.calculateBestStreak(
+      habit: habit,
+      completionsMap: completionsMap,
+    );
+    if (best > maxBestStreak) {
+      maxBestStreak = best;
     }
 
     int scheduledCount = 0;
@@ -329,7 +341,9 @@ final appAnalyticsProvider = FutureProvider<HabitAnalytics>((ref) async {
 
   return HabitAnalytics(
     overallCompletionRate: overallRate,
-    maxCurrentStreak: maxStreak > 0 ? maxStreak : 18,
+    maxCurrentStreak: maxStreak,
+    bestStreak: maxBestStreak,
+    totalCompletions: totalCompletedAll,
     habitPerformances: performanceList,
     dailyTrends: dailyTrends,
   );

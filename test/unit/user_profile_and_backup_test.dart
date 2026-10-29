@@ -11,8 +11,8 @@ void main() {
     test('Default profile has sensible values', () {
       const profile = UserProfile();
       expect(profile.name, equals('Alex'));
-      expect(profile.avatarType, equals('preset'));
-      expect(profile.avatarKey, equals('default'));
+      expect(profile.avatarType, equals('icon'));
+      expect(profile.avatarKey, equals('botanical'));
       expect(profile.avatarBgColor, equals(0xFFDCFCE7));
     });
 

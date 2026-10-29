@@ -2,19 +2,19 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:habitflow/habits/widgets/plant_data.dart';
 
 /// User profile data model
 class UserProfile {
   final String name;
   final String avatarType; // 'preset' | 'emoji' | 'icon'
-  final String avatarKey;  // 'default' | 'botanical' | 'zen' | 'runner' | 'rocket' | 'coffee' | 'scholar' | 'lion' | '🔥' | '🌿' ...
+  final String
+      avatarKey; // 'default' | 'botanical' | 'zen' | 'runner' | 'rocket' | 'coffee' | 'scholar' | 'lion' | '🔥' | '🌿' ...
   final int avatarBgColor; // Color value as int (0xFF...)
 
   const UserProfile({
     this.name = 'Alex',
-    this.avatarType = 'preset',
-    this.avatarKey = 'default',
+    this.avatarType = 'icon',
+    this.avatarKey = 'botanical',
     this.avatarBgColor = 0xFFDCFCE7,
   });
 
@@ -42,10 +42,15 @@ class UserProfile {
   }
 
   factory UserProfile.fromMap(Map<String, dynamic> map) {
+    final type = map['avatarType'] as String? ?? 'icon';
+    final key = map['avatarKey'] as String? ?? 'botanical';
+    final effectiveType = (type == 'preset' || key == 'default') ? 'icon' : type;
+    final effectiveKey = (key == 'default') ? 'botanical' : key;
+
     return UserProfile(
       name: map['name'] as String? ?? 'Alex',
-      avatarType: map['avatarType'] as String? ?? 'preset',
-      avatarKey: map['avatarKey'] as String? ?? 'default',
+      avatarType: effectiveType,
+      avatarKey: effectiveKey,
       avatarBgColor: map['avatarBgColor'] as int? ?? 0xFFDCFCE7,
     );
   }
@@ -138,12 +143,6 @@ class PresetAvatarOption {
 }
 
 const List<PresetAvatarOption> kPresetAvatarOptions = [
-  PresetAvatarOption(
-    key: 'default',
-    label: 'Illustrated',
-    type: 'preset',
-    defaultBg: 0xFFE2E8F0,
-  ),
   PresetAvatarOption(
     key: 'botanical',
     label: 'Sprout',
@@ -258,18 +257,10 @@ class UserAvatarWidget extends ConsumerWidget {
 
     Widget avatarContent;
 
-    if (profile.avatarType == 'preset' && profile.avatarKey == 'default') {
-      avatarContent = Image.memory(
-        kAvatarBytes,
-        width: size,
-        height: size,
-        fit: BoxFit.cover,
-        errorBuilder: (_, __, ___) => _fallbackIcon(),
-      );
-    } else if (profile.avatarType == 'icon') {
+    if (profile.avatarType == 'icon' || profile.avatarType == 'preset') {
       final match = kPresetAvatarOptions.firstWhere(
         (o) => o.key == profile.avatarKey,
-        orElse: () => kPresetAvatarOptions[1],
+        orElse: () => kPresetAvatarOptions.first,
       );
       avatarContent = Container(
         color: Color(profile.avatarBgColor),
@@ -367,4 +358,3 @@ class UserAvatarWidget extends ConsumerWidget {
     );
   }
 }
-
