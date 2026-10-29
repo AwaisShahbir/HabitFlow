@@ -266,6 +266,8 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
+    final hintColor = isDark ? const Color(0xFF64748B) : const Color(0xFF94A3B8);
     final isEditing = widget.habitToEdit != null;
 
     return Scaffold(
@@ -289,8 +291,10 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
               TextFormField(
                 controller: _nameController,
                 maxLength: 60,
-                decoration: const InputDecoration(
-                    hintText: 'e.g., Drink Water, Read a Book'),
+                decoration: InputDecoration(
+                    hintText: 'e.g., Drink Water, Read a Book',
+                    hintStyle: TextStyle(color: hintColor, fontSize: 14, fontWeight: FontWeight.w400),
+                  ),
                 validator: (val) {
                   if (val == null || val.trim().isEmpty) {
                     return 'Please enter a habit name';
@@ -310,8 +314,10 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
               TextFormField(
                 controller: _descController,
                 maxLines: 2,
-                decoration: const InputDecoration(
-                    hintText: 'Stay hydrated for energy and focus...'),
+                decoration: InputDecoration(
+                    hintText: 'Stay hydrated for energy and focus...',
+                    hintStyle: TextStyle(color: hintColor, fontSize: 14, fontWeight: FontWeight.w400),
+                  ),
               ),
               const SizedBox(height: 20),
 
@@ -420,7 +426,7 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
                             keyboardType: const TextInputType.numberWithOptions(
                                 decimal: true),
                             decoration:
-                                const InputDecoration(hintText: 'e.g. 2000'),
+                                InputDecoration(hintText: 'e.g. 2000', hintStyle: TextStyle(color: hintColor, fontSize: 14, fontWeight: FontWeight.w400)),
                             validator: (val) {
                               final numVal = double.tryParse(val ?? '');
                               if (numVal == null || numVal <= 0) {
@@ -443,8 +449,10 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
                           const SizedBox(height: 8),
                           TextFormField(
                             controller: _unitController,
-                            decoration: const InputDecoration(
-                                hintText: 'e.g. ml, mins'),
+                            decoration: InputDecoration(
+                                hintText: 'e.g. ml, mins',
+                                hintStyle: TextStyle(color: hintColor, fontSize: 14, fontWeight: FontWeight.w400),
+                              ),
                           ),
                         ],
                       ),

@@ -91,6 +91,11 @@ class AppTheme {
         filled: true,
         fillColor: Colors.white,
         contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 15),
+        hintStyle: GoogleFonts.inter(
+          color: const Color(0xFF94A3B8), // Muted slate-400 placeholder
+          fontSize: 14,
+          fontWeight: FontWeight.w400,
+        ),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(14),
           borderSide: const BorderSide(color: AppColors.borderLight),
@@ -194,6 +199,11 @@ class AppTheme {
         filled: true,
         fillColor: AppColors.surfaceDark,
         contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 15),
+        hintStyle: GoogleFonts.inter(
+          color: const Color(0xFF64748B), // Muted slate-500 placeholder for dark mode
+          fontSize: 14,
+          fontWeight: FontWeight.w400,
+        ),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(14),
           borderSide: const BorderSide(color: AppColors.borderDark),

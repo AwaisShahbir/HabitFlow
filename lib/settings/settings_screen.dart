@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:habitflow/core/notification_service.dart';
+import 'package:habitflow/core/sound_service.dart';
 import 'package:habitflow/core/theme_provider.dart';
 import 'dart:io';
 import 'package:intl/intl.dart';
@@ -893,7 +894,72 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
               iconBg: const Color(0xFFFEF3C7),
               iconColor: const Color(0xFFD97706),
               title: 'Notifications',
-              subtitle: _notificationsEnabled ? 'Reminders Enabled' : 'Reminders Disabled',
+              subtitle: _notificationsEnabled
+                  ? 'Reminders active (Tap bell to test)'
+                  : 'Reminders Disabled',
+              trailing: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  if (_notificationsEnabled)
+                    IconButton(
+                      icon: const Icon(Icons.notification_important_rounded, size: 20),
+                      tooltip: 'Send Test Notification',
+                      color: const Color(0xFF15803D),
+                      onPressed: () async {
+                        await NotificationService().showInstantNotification(
+                          title: 'HabitFlow Test 🌿',
+                          body: 'Notifications are working perfectly! Keep your streak alive.',
+                        );
+                        if (mounted) {
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              content: Text('Test notification sent! Check your notification bar.'),
+                              backgroundColor: Color(0xFF15803D),
+                            ),
+                          );
+                        }
+                      },
+                    ),
+                  Switch(
+                    value: _notificationsEnabled,
+                    activeColor: const Color(0xFF15803D),
+                    onChanged: (val) async {
+                      setState(() {
+                        _notificationsEnabled = val;
+                      });
+                      if (val) {
+                        await NotificationService().requestPermissions();
+                        final habits = await ref.read(habitRepositoryProvider).getAllHabits();
+                        for (final h in habits) {
+                          if (h.reminderTime != null) {
+                            await NotificationService().scheduleHabitReminder(
+                              habitId: h.id,
+                              habitName: h.name,
+                              timeString: h.reminderTime!,
+                              scheduledDays: h.scheduledDays,
+                            );
+                          }
+                        }
+                      } else {
+                        await NotificationService().cancelAllReminders();
+                      }
+                      if (mounted) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text(
+                              val
+                                  ? 'Habit reminders enabled'
+                                  : 'All habit reminders disabled',
+                            ),
+                            backgroundColor:
+                                val ? const Color(0xFF15803D) : const Color(0xFF475569),
+                          ),
+                        );
+                      }
+                    },
+                  ),
+                ],
+              ),
               onTap: () async {
                 final nextVal = !_notificationsEnabled;
                 setState(() {
@@ -927,6 +993,31 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
                     ),
                   );
                 }
+              },
+            ),
+
+            // 2b. Sound & Haptic Feedback
+            Builder(
+              builder: (ctx) {
+                final soundEnabled = ref.watch(soundEffectsProvider);
+                return _buildSettingsCard(
+                  isDark: isDark,
+                  icon: Icons.volume_up_rounded,
+                  iconBg: const Color(0xFFDCFCE7),
+                  iconColor: const Color(0xFF16A34A),
+                  title: 'Sound & Haptic Feedback',
+                  subtitle: soundEnabled ? 'Audio click & haptics enabled' : 'Muted',
+                  trailing: Switch(
+                    value: soundEnabled,
+                    activeColor: const Color(0xFF15803D),
+                    onChanged: (_) {
+                      ref.read(soundEffectsProvider.notifier).toggle();
+                    },
+                  ),
+                  onTap: () {
+                    ref.read(soundEffectsProvider.notifier).toggle();
+                  },
+                );
               },
             ),
 
@@ -1184,6 +1275,7 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
     required String subtitle,
     required VoidCallback onTap,
     bool isDestructive = false,
+    Widget? trailing,
   }) {
     return Container(
       margin: const EdgeInsets.only(bottom: 12),
@@ -1233,10 +1325,11 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
             color: isDark ? const Color(0xFF94A3B8) : const Color(0xFF64748B),
           ),
         ),
-        trailing: Icon(
-          Icons.chevron_right_rounded,
-          color: isDark ? const Color(0xFF64748B) : const Color(0xFF94A3B8),
-        ),
+        trailing: trailing ??
+            Icon(
+              Icons.chevron_right_rounded,
+              color: isDark ? const Color(0xFF64748B) : const Color(0xFF94A3B8),
+            ),
       ),
     );
   }

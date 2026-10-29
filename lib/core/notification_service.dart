@@ -136,6 +136,36 @@ class NotificationService {
     }
   }
 
+  Future<void> showInstantNotification({
+    String title = 'HabitFlow Reminder 🌿',
+    String body = 'Keep your streak alive! You have habits pending today.',
+  }) async {
+    if (kIsWeb) return;
+    if (!_isInitialized) {
+      await initialize();
+    }
+    try {
+      await requestPermissions();
+      const androidDetails = AndroidNotificationDetails(
+        'habit_reminders',
+        'Habit Reminders',
+        channelDescription: 'Notifications to remind you to complete your daily habits',
+        importance: Importance.high,
+        priority: Priority.high,
+        icon: '@mipmap/ic_launcher',
+      );
+      const notificationDetails = NotificationDetails(android: androidDetails);
+      await _notificationsPlugin.show(
+        99999,
+        title,
+        body,
+        notificationDetails,
+      );
+    } catch (e) {
+      debugPrint('Error showing instant notification: $e');
+    }
+  }
+
   TimeOfDay? _parseTime(String timeString) {
     try {
       final parts = timeString.trim().split(' ');
