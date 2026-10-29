@@ -367,3 +367,4 @@ class UserAvatarWidget extends ConsumerWidget {
     );
   }
 }
+
