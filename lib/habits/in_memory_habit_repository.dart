@@ -20,7 +20,6 @@ class InMemoryHabitRepository implements HabitRepository {
     final now = DateTime.now();
     final today = AppDateUtils.today;
     final todayStr = AppDateUtils.toIsoDateString(today);
-    final yesterday = today.subtract(const Duration(days: 1));
     final twoDaysAgo = today.subtract(const Duration(days: 2));
 
     // 1. Drink Water (Incomplete on dashboard -> + button)
@@ -223,6 +222,11 @@ class InMemoryHabitRepository implements HabitRepository {
   }
 
   @override
+  Future<void> upsertHabit(Habit habit) async {
+    _habits[habit.id] = habit;
+  }
+
+  @override
   Future<void> updateHabit(Habit habit) async {
     _habits[habit.id] = habit;
   }
@@ -256,6 +260,11 @@ class InMemoryHabitRepository implements HabitRepository {
   @override
   Future<List<HabitCompletion>> getCompletionsForDate(String localDate) async {
     return _completions.values.where((c) => c.localDate == localDate).toList();
+  }
+
+  @override
+  Future<List<HabitCompletion>> getAllCompletions() async {
+    return _completions.values.toList();
   }
 
   @override

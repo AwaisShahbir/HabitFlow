@@ -3,9 +3,9 @@ import 'package:habitflow/core/app_database.dart';
 import 'package:habitflow/core/database_constants.dart';
 import 'package:habitflow/habits/habit.dart';
 import 'package:habitflow/habits/habit_completion.dart';
-import 'package:habitflow/habits/habit_repository.dart';
 import 'package:habitflow/habits/habit_completion_model.dart';
 import 'package:habitflow/habits/habit_model.dart';
+import 'package:habitflow/habits/habit_repository.dart';
 
 class HabitRepositoryImpl implements HabitRepository {
   final AppDatabase database;
@@ -15,11 +15,9 @@ class HabitRepositoryImpl implements HabitRepository {
   @override
   Future<List<Habit>> getAllHabits({bool includeArchived = false}) async {
     final db = await database.database;
-    final String whereClause = includeArchived ? '' : '${DatabaseConstants.colHabitIsArchived} = 0';
-
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseConstants.tableHabits,
-      where: whereClause.isEmpty ? null : whereClause,
+      where: includeArchived ? null : '${DatabaseConstants.colHabitIsArchived} = 0',
       orderBy: '${DatabaseConstants.colHabitCreatedAt} DESC',
     );
 
@@ -48,6 +46,17 @@ class HabitRepositoryImpl implements HabitRepository {
       DatabaseConstants.tableHabits,
       model.toMap(),
       conflictAlgorithm: ConflictAlgorithm.fail,
+    );
+  }
+
+  @override
+  Future<void> upsertHabit(Habit habit) async {
+    final db = await database.database;
+    final model = HabitModel.fromEntity(habit);
+    await db.insert(
+      DatabaseConstants.tableHabits,
+      model.toMap(),
+      conflictAlgorithm: ConflictAlgorithm.replace,
     );
   }
 
@@ -118,6 +127,17 @@ class HabitRepositoryImpl implements HabitRepository {
   }
 
   @override
+  Future<List<HabitCompletion>> getAllCompletions() async {
+    final db = await database.database;
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseConstants.tableCompletions,
+      orderBy: '${DatabaseConstants.colCompletionLocalDate} ASC',
+    );
+
+    return maps.map((m) => HabitCompletionModel.fromMap(m).toEntity()).toList();
+  }
+
+  @override
   Future<void> recordProgress(HabitCompletion completion) async {
     final db = await database.database;
     final model = HabitCompletionModel.fromEntity(completion);
@@ -144,4 +164,3 @@ class HabitRepositoryImpl implements HabitRepository {
     await database.clearAllData();
   }
 }
-

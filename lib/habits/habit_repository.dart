@@ -11,6 +11,9 @@ abstract class HabitRepository {
   /// Persists a new habit after validation.
   Future<void> createHabit(Habit habit);
 
+  /// Inserts or replaces a habit (used for import & backups).
+  Future<void> upsertHabit(Habit habit);
+
   /// Updates an existing habit. Historical completions are preserved.
   Future<void> updateHabit(Habit habit);
 
@@ -26,6 +29,9 @@ abstract class HabitRepository {
   /// Retrieves all habit completions recorded for a specific calendar date.
   Future<List<HabitCompletion>> getCompletionsForDate(String localDate);
 
+  /// Retrieves all completions across all habits (used for complete backups).
+  Future<List<HabitCompletion>> getAllCompletions();
+
   /// Upserts completion progress for a habit on a given date.
   Future<void> recordProgress(HabitCompletion completion);
 
@@ -35,4 +41,3 @@ abstract class HabitRepository {
   /// Erases all habits and completion records from database.
   Future<void> resetAllData();
 }
-
