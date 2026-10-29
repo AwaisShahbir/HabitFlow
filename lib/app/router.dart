@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import '../features/habits/presentation/screens/add_habit_screen.dart';
-import '../features/habits/presentation/screens/habit_details_screen.dart';
-import '../features/habits/presentation/screens/home_dashboard_screen.dart';
-import '../features/history/presentation/screens/history_calendar_screen.dart';
-import '../features/onboarding/presentation/screens/onboarding_screen.dart';
-import '../features/settings/presentation/screens/settings_screen.dart';
-import '../features/statistics/presentation/screens/statistics_screen.dart';
+import 'package:habitflow/habits/add_habit_screen.dart';
+import 'package:habitflow/habits/categories_screen.dart';
+import 'package:habitflow/habits/habit_details_screen.dart';
+import 'package:habitflow/habits/home_dashboard_screen.dart';
+import 'package:habitflow/history/history_calendar_screen.dart';
+import 'package:habitflow/onboarding/onboarding_screen.dart';
+import 'package:habitflow/onboarding/splash_screen.dart';
+import 'package:habitflow/settings/settings_screen.dart';
+import 'package:habitflow/statistics/statistics_screen.dart';
 
 final GlobalKey<NavigatorState> _rootNavigatorKey = GlobalKey<NavigatorState>();
 final GlobalKey<NavigatorState> _shellNavigatorKey = GlobalKey<NavigatorState>();
@@ -14,8 +16,12 @@ final GlobalKey<NavigatorState> _shellNavigatorKey = GlobalKey<NavigatorState>()
 class AppRouter {
   static final router = GoRouter(
     navigatorKey: _rootNavigatorKey,
-    initialLocation: '/main/home',
+    initialLocation: '/splash',
     routes: [
+      GoRoute(
+        path: '/splash',
+        builder: (context, state) => const SplashScreen(),
+      ),
       GoRoute(
         path: '/onboarding',
         builder: (context, state) => const OnboardingScreen(),
@@ -57,6 +63,11 @@ class AppRouter {
           return HabitDetailsScreen(habitId: habitId);
         },
       ),
+      GoRoute(
+        path: '/categories',
+        parentNavigatorKey: _rootNavigatorKey,
+        builder: (context, state) => const CategoriesScreen(),
+      ),
     ],
   );
 }
@@ -96,37 +107,117 @@ class ScaffoldWithBottomNavBar extends StatelessWidget {
   Widget build(BuildContext context) {
     final selectedIndex = _calculateSelectedIndex(context);
     final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
 
     return Scaffold(
       body: child,
-      bottomNavigationBar: NavigationBar(
-        selectedIndex: selectedIndex,
-        onDestinationSelected: (idx) => _onItemTapped(idx, context),
-        backgroundColor: theme.scaffoldBackgroundColor,
-        elevation: 2,
-        destinations: const [
-          NavigationDestination(
-            icon: Icon(Icons.home_outlined),
-            selectedIcon: Icon(Icons.home, color: Color(0xFF16A34A)),
-            label: 'Home',
+      bottomNavigationBar: Container(
+        decoration: BoxDecoration(
+          color: isDark ? const Color(0xFF0F172A) : Colors.white,
+          border: Border(
+            top: BorderSide(
+              color: isDark ? const Color(0xFF1E293B) : const Color(0xFFE5E9E5),
+              width: 1,
+            ),
           ),
-          NavigationDestination(
-            icon: Icon(Icons.calendar_today_outlined),
-            selectedIcon: Icon(Icons.calendar_today, color: Color(0xFF16A34A)),
-            label: 'History',
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.04),
+              blurRadius: 16,
+              offset: const Offset(0, -4),
+            ),
+          ],
+        ),
+        child: SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                _buildNavItem(
+                  context,
+                  index: 0,
+                  icon: Icons.home_rounded,
+                  label: 'Home',
+                  isSelected: selectedIndex == 0,
+                  isDark: isDark,
+                ),
+                _buildNavItem(
+                  context,
+                  index: 1,
+                  icon: Icons.calendar_today_rounded,
+                  label: 'History',
+                  isSelected: selectedIndex == 1,
+                  isDark: isDark,
+                ),
+                _buildNavItem(
+                  context,
+                  index: 2,
+                  icon: Icons.bar_chart_rounded,
+                  label: 'Stats',
+                  isSelected: selectedIndex == 2,
+                  isDark: isDark,
+                ),
+                _buildNavItem(
+                  context,
+                  index: 3,
+                  icon: Icons.settings_rounded,
+                  label: 'Settings',
+                  isSelected: selectedIndex == 3,
+                  isDark: isDark,
+                ),
+              ],
+            ),
           ),
-          NavigationDestination(
-            icon: Icon(Icons.bar_chart_outlined),
-            selectedIcon: Icon(Icons.bar_chart, color: Color(0xFF16A34A)),
-            label: 'Stats',
-          ),
-          NavigationDestination(
-            icon: Icon(Icons.settings_outlined),
-            selectedIcon: Icon(Icons.settings, color: Color(0xFF16A34A)),
-            label: 'Settings',
-          ),
-        ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildNavItem(
+    BuildContext context, {
+    required int index,
+    required IconData icon,
+    required String label,
+    required bool isSelected,
+    required bool isDark,
+  }) {
+    final activeColor = const Color(0xFF16A34A);
+    final inactiveColor = isDark ? const Color(0xFF64748B) : const Color(0xFF94A3B8);
+
+    return InkWell(
+      onTap: () => _onItemTapped(index, context),
+      borderRadius: BorderRadius.circular(16),
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 200),
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        decoration: BoxDecoration(
+          color: isSelected
+              ? (isDark ? activeColor.withOpacity(0.2) : const Color(0xFFDCFCE7))
+              : Colors.transparent,
+          borderRadius: BorderRadius.circular(20),
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(
+              icon,
+              size: 24,
+              color: isSelected ? activeColor : inactiveColor,
+            ),
+            const SizedBox(height: 3),
+            Text(
+              label,
+              style: TextStyle(
+                fontSize: 11,
+                fontWeight: isSelected ? FontWeight.w700 : FontWeight.w500,
+                color: isSelected ? activeColor : inactiveColor,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
 }
+

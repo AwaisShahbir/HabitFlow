@@ -1,8 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:habitflow/core/utils/app_date_utils.dart';
-import 'package:habitflow/features/habits/domain/entities/habit.dart';
-import 'package:habitflow/features/habits/domain/entities/habit_completion.dart';
-import 'package:habitflow/features/habits/domain/services/streak_engine.dart';
+import 'package:habitflow/habits/habit.dart';
+import 'package:habitflow/habits/habit_completion.dart';
+import 'package:habitflow/habits/streak_engine.dart';
 
 void main() {
   group('StreakEngine Unit Tests', () {
@@ -224,3 +223,4 @@ void main() {
     });
   });
 }
+

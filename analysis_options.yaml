@@ -26,3 +26,4 @@ linter:
     unrelated_type_equality_checks: true
     use_key_in_widget_constructors: true
     valid_regexps: true
+

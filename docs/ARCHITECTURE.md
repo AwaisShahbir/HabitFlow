@@ -1,28 +1,19 @@
 # HabitFlow Technical Architecture & Engineering Decisions
 
 ## 1. Architectural Philosophy
-HabitFlow is structured using **Feature-First Clean Architecture**, designed specifically for high maintainability, testability, and offline reliability.
+HabitFlow is structured using a **Clean, Modular Feature-Based Architecture**, designed specifically for high maintainability, testability, and offline reliability.
 
 ```
 lib/
 ├── app/                  # Application bootstrap, routing & global theming
-│   ├── app.dart
-│   ├── router.dart
-│   └── ...
-├── core/                 # Shared foundation across all features
-│   ├── database/         # SQLite schema, migrations & db client
-│   ├── theme/            # Design tokens, color system & Material 3 specs
-│   ├── utils/            # Pure date normalization, formatting & math
-│   └── widgets/          # Shared reusable UI atoms & molecules
-└── features/             # Feature slices (Domain-Driven, Layered)
-    ├── habits/           # Habit creation, editing, scheduling, streak engine
-    │   ├── domain/       # Pure Dart entities, streak service, repository contracts
-    │   ├── data/         # Models, local datasources & repository implementations
-    │   └── presentation/ # Riverpod controllers, UI screens & bottom sheets
-    ├── history/          # Monthly calendar visualization & day inspection
-    ├── statistics/       # Trends, completion rates & performance analytics
-    ├── onboarding/       # Walkthrough screens & first-launch persistence
-    └── settings/         # Theme toggling, reminder toggles, data reset & export
+├── core/                 # Shared foundation (SQLite DB, themes, date utils, notifications)
+├── habits/               # Habit models, SQLite repo, streak engine, UI & widgets
+│   └── widgets/          # Hero progress, bottom sheets, badges, plant data
+├── history/              # Monthly calendar visualization & retroactive day inspection
+├── statistics/           # Trends, completion rates & performance analytics (fl_chart)
+├── onboarding/           # Walkthrough screens, animated splash & asset buffers
+├── settings/             # Theme toggling, reminder toggles, data reset & export
+└── main.dart             # Application entry point
 ```
 
 ---
@@ -46,13 +37,4 @@ lib/
 ---
 
 ## 4. Streak Calculation Engine Specification
-The streak engine is implemented in `lib/features/habits/domain/services/streak_engine.dart` as an isolated pure Dart service without any UI or Flutter framework dependencies.
-
-### Key Rules Implemented:
-1. **Consecutive Scheduled Occurrences:** Only days matching the habit's configured schedule (Daily, Weekdays, or Custom Mon-Sun) count. Unscheduled days are strictly skipped and do not break streaks.
-2. **Pending Today Policy:** If a habit is scheduled for today but is not yet marked done, it remains in a **pending** state. It does not break the active streak until the day has elapsed.
-3. **Missed Scheduled Day:** If a scheduled date in the past has passed without satisfying the configured target, the current streak is interrupted and resets.
-4. **Best Streak:** Computed by stepping forward chronologically from `startDate` through all scheduled occurrences and recording the peak sequence.
-5. **Completion Rate Formula:**
-   $$\text{Completion Rate} = \frac{\text{Completed Eligible Occurrences}}{\text{Total Eligible Occurrences}} \times 100$$
-   Returns `null` instead of `NaN` or dividing by zero when there are no eligible occurrences.
+The streak engine is implemented in `lib/habits/streak_engine.dart` as an isolated pure Dart service without any UI or Flutter framework dependencies.

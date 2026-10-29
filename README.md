@@ -14,23 +14,25 @@
 * **Rich Analytics & Trends:** Weekly and monthly completion percentage trends and individual habit performance breakdown.
 * **Modern Minimal Design:** Clean Emerald palette (`#16A34A`, `#22C55E`, `#F0FDF4`, `#111827`), rounded surfaces, bottom sheets, and full Light & Dark mode support.
 * **Data Safety & Portability:** On-device SQLite database with composite unique constraints `(habit_id, local_date)`, JSON export/import capability, and safe data wiping.
+* **Official Branding:** Custom high-resolution green squircle leaf logo and native Android launcher icons across all screen densities.
 
 ---
 
 ## 🏗️ Technical Architecture
 
-HabitFlow adheres strictly to **Feature-First Clean Architecture**:
+HabitFlow adheres strictly to a clean, flat, modular architecture:
 
 ```
 lib/
-├── app/                  # Application bootstrap, GoRouter, themes
-├── core/                 # Database helpers, date utilities, design tokens
-└── features/
-    ├── habits/           # Habit domain entities, SQLite models, streak service
-    ├── history/          # Calendar grid & date inspection
-    ├── statistics/       # Trends & performance metrics
-    ├── onboarding/       # Multi-step introduction walkthrough
-    └── settings/         # Theme toggling, notifications & data management
+├── app/                  # Application bootstrap & GoRouter
+├── core/                 # Database helpers, date utilities, design tokens, notifications
+├── habits/               # Habit models, SQLite repo, streak engine, UI & widgets
+│   └── widgets/          # Hero progress, bottom sheets, badges, plant data
+├── history/              # Calendar grid & retroactive date inspection
+├── statistics/           # Analytics, fl_chart visualizations, performance metrics
+├── onboarding/           # Animated splash screen, onboarding carousel & assets
+├── settings/             # Themes, notifications, backup & data management
+└── main.dart             # Application entry point
 ```
 
 ### Core Technologies
@@ -45,69 +47,36 @@ lib/
 
 ## 🧮 Streak Calculation Engine Policy
 
-The streak engine (`lib/features/habits/domain/services/streak_engine.dart`) adheres to strict deterministic rules:
+The streak engine (`lib/habits/streak_engine.dart`) adheres to strict deterministic rules:
 
 1. **Unscheduled Days:** Unscheduled days do not break a streak (e.g., a Monday/Wednesday/Friday habit completed on Monday and Wednesday has a current streak of 2).
-2. **Current Day Policy:** When a habit is scheduled for today but incomplete, it is marked as **pending**. It does **not** reset the active streak before midnight.
-3. **Missed Occurrence:** Any past scheduled date without a completed target breaks the streak sequence.
-4. **All-Time Best Streak:** Chronologically computed peak sequence across the entire habit history.
-5. **Safe Division:** Returns `null` (displaying "No scheduled habits") rather than `NaN` or invalid percentages when there are zero eligible occurrences.
+2. **Current Day Tolerance:** An uncompleted habit for "Today" does not break an active streak until the day elapses.
+3. **Missed Scheduled Day:** Missing a scheduled past day immediately resets the active streak counter to 0.
+4. **Historical Peak:** Best streak tracks all-time historical peak accurately.
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-* Flutter SDK (3.10.0 or higher)
-* Dart SDK (3.0.0 or higher)
+* Flutter SDK (3.10.0 or later)
 * Android Studio / VS Code with Flutter extension
-* Android SDK & Gradle
+* An active Android emulator or physical device
 
-### Installation & Run
-
-1. Clone or navigate to the repository:
-   ```bash
-   cd HabitFlow
-   ```
-
-2. Fetch dependencies:
-   ```bash
-   flutter pub get
-   ```
-
-3. Run automated unit tests:
-   ```bash
-   flutter test
-   ```
-
-4. Launch the application:
-   ```bash
-   flutter run
-   ```
-
-5. Build Android APK:
-   ```bash
-   flutter build apk --debug
-   ```
-
----
-
-## 🧪 Automated Testing
-
-Unit tests for streak computations, schedule eligibility, and boundary conditions are located in `test/unit/streak_engine_test.dart`.
-
+### Installation
 ```bash
-flutter test test/unit/streak_engine_test.dart
+# Clone the repository
+git clone https://github.com/AwaisShahbir/HabitFlow.git
+
+# Navigate to project directory
+cd HabitFlow
+
+# Install dependencies
+flutter pub get
+
+# Run test suite
+flutter test
+
+# Run application
+flutter run
 ```
-
----
-
-## 📋 Evaluation Checklist & Deliverables
-
-- [x] Feature-based Clean Architecture scaffold
-- [x] Pure Dart Streak Calculation Engine
-- [x] SQLite database schema with `(habit_id, local_date)` unique constraint
-- [x] Full UI design system tokens (Light & Dark mode)
-- [x] GoRouter navigation shell with bottom navigation bar
-- [x] Comprehensive unit test suite for business logic
-- [x] Complete technical documentation & README
