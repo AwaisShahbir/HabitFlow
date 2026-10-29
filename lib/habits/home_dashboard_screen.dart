@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:habitflow/core/habit_order_service.dart';
 import 'package:habitflow/core/sound_service.dart';
+import 'package:habitflow/core/app_settings_provider.dart';
 import 'package:habitflow/core/user_profile_provider.dart';
 import 'package:habitflow/habits/widgets/confetti_overlay.dart';
 import 'package:habitflow/habits/widgets/profile_bottom_sheet.dart';
@@ -71,7 +72,8 @@ class _HomeDashboardScreenState extends ConsumerState<HomeDashboardScreen> {
     final habitsAsync = ref.watch(habitsNotifierProvider);
     final completionsAsync = ref.watch(dateCompletionsNotifierProvider);
 
-    final weekDates = AppDateUtils.getWeekDates(selectedDate);
+    final startWeekOn = ref.watch(startWeekOnProvider);
+    final weekDates = AppDateUtils.getWeekDates(selectedDate, startOnMonday: startWeekOn == 'Monday');
 
     return Scaffold(
       floatingActionButton: _isReordering

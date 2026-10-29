@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:habitflow/core/notification_service.dart';
 import 'package:habitflow/core/sound_service.dart';
+import 'package:habitflow/core/app_settings_provider.dart';
 import 'package:habitflow/core/theme_provider.dart';
 import 'dart:io';
 import 'package:intl/intl.dart';
@@ -27,7 +28,168 @@ class SettingsScreen extends ConsumerStatefulWidget {
 
 class _SettingsScreenState extends ConsumerState<SettingsScreen> {
   bool _notificationsEnabled = true;
-  String _startWeekOn = 'Monday';
+  // Managed by startWeekOnProvider
+
+  void _showStartWeekBottomSheet(BuildContext context) {
+    final currentDay = ref.read(startWeekOnProvider);
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+
+    showModalBottomSheet(
+      context: context,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+      ),
+      builder: (ctx) {
+        return SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 20),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Center(
+                  child: Container(
+                    width: 40,
+                    height: 4,
+                    decoration: BoxDecoration(
+                      color: isDark ? const Color(0xFF475569) : const Color(0xFFE2E8F0),
+                      borderRadius: BorderRadius.circular(2),
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 18),
+                Text(
+                  'Start Week On',
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w800,
+                    color: isDark ? Colors.white : const Color(0xFF0F172A),
+                  ),
+                ),
+                const SizedBox(height: 6),
+                Text(
+                  'Select the first day of the week for your dashboard and calendar',
+                  style: TextStyle(
+                    fontSize: 13,
+                    color: isDark ? const Color(0xFF94A3B8) : const Color(0xFF64748B),
+                  ),
+                ),
+                const SizedBox(height: 16),
+                _buildDayOptionTile(
+                  context,
+                  title: 'Monday',
+                  subtitle: 'International standard (ISO 8601)',
+                  isSelected: currentDay == 'Monday',
+                  onTap: () async {
+                    await ref.read(startWeekOnProvider.notifier).setDay('Monday');
+                    if (context.mounted) Navigator.pop(ctx);
+                    if (mounted) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(
+                          content: Text('Week now starts on Monday'),
+                          backgroundColor: Color(0xFF15803D),
+                        ),
+                      );
+                    }
+                  },
+                ),
+                const SizedBox(height: 10),
+                _buildDayOptionTile(
+                  context,
+                  title: 'Sunday',
+                  subtitle: 'Common in Americas & Asia',
+                  isSelected: currentDay == 'Sunday',
+                  onTap: () async {
+                    await ref.read(startWeekOnProvider.notifier).setDay('Sunday');
+                    if (context.mounted) Navigator.pop(ctx);
+                    if (mounted) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(
+                          content: Text('Week now starts on Sunday'),
+                          backgroundColor: Color(0xFF15803D),
+                        ),
+                      );
+                    }
+                  },
+                ),
+                const SizedBox(height: 16),
+              ],
+            ),
+          ),
+        );
+      },
+    );
+  }
+
+  Widget _buildDayOptionTile(
+    BuildContext context, {
+    required String title,
+    required String subtitle,
+    required bool isSelected,
+    required VoidCallback onTap,
+  }) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    return InkWell(
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(16),
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+        decoration: BoxDecoration(
+          color: isSelected
+              ? (isDark ? const Color(0xFF166534).withOpacity(0.3) : const Color(0xFFDCFCE7))
+              : (isDark ? const Color(0xFF1E293B) : const Color(0xFFF8FAFC)),
+          borderRadius: BorderRadius.circular(16),
+          border: Border.all(
+            color: isSelected
+                ? const Color(0xFF15803D)
+                : (isDark ? const Color(0xFF334155) : const Color(0xFFE2E8F0)),
+            width: isSelected ? 2 : 1,
+          ),
+        ),
+        child: Row(
+          children: [
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    title,
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w700,
+                      color: isSelected
+                          ? const Color(0xFF15803D)
+                          : (isDark ? Colors.white : const Color(0xFF0F172A)),
+                    ),
+                  ),
+                  const SizedBox(height: 2),
+                  Text(
+                    subtitle,
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: isDark ? const Color(0xFF94A3B8) : const Color(0xFF64748B),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            if (isSelected)
+              const Icon(
+                Icons.check_circle_rounded,
+                color: Color(0xFF15803D),
+                size: 22,
+              )
+            else
+              Icon(
+                Icons.circle_outlined,
+                color: isDark ? const Color(0xFF64748B) : const Color(0xFFCBD5E1),
+                size: 22,
+              ),
+          ],
+        ),
+      ),
+    );
+  }
 
   void _showAppearanceBottomSheet(BuildContext context) {
     final currentMode = ref.read(themeModeProvider);
@@ -1022,19 +1184,17 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
             ),
 
             // 3. Start Week On
-            _buildSettingsCard(
-              isDark: isDark,
-              icon: Icons.calendar_view_week_rounded,
-              iconBg: const Color(0xFFF3E8FF),
-              iconColor: const Color(0xFF9333EA),
-              title: 'Start Week On',
-              subtitle: _startWeekOn,
-              onTap: () {
-                setState(() {
-                  _startWeekOn = _startWeekOn == 'Monday' ? 'Sunday' : 'Monday';
-                });
-                ScaffoldMessenger.of(context).showSnackBar(
-                  SnackBar(content: Text('Week now starts on $_startWeekOn')),
+            Builder(
+              builder: (ctx) {
+                final startWeekOn = ref.watch(startWeekOnProvider);
+                return _buildSettingsCard(
+                  isDark: isDark,
+                  icon: Icons.calendar_view_week_rounded,
+                  iconBg: const Color(0xFFF3E8FF),
+                  iconColor: const Color(0xFF9333EA),
+                  title: 'Start Week On',
+                  subtitle: startWeekOn,
+                  onTap: () => _showStartWeekBottomSheet(context),
                 );
               },
             ),

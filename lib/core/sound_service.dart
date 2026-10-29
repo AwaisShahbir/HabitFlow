@@ -58,3 +58,4 @@ final soundEffectsProvider =
     StateNotifierProvider<SoundEffectsNotifier, bool>((ref) {
   return SoundEffectsNotifier();
 });
+

@@ -1,5 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:habitflow/core/app_settings_provider.dart';
 import 'package:habitflow/core/habit_order_service.dart';
 import 'package:habitflow/core/sound_service.dart';
 import 'package:habitflow/habits/habit.dart';
@@ -75,4 +76,32 @@ void main() {
       expect(notifier.state, isTrue);
     });
   });
+
+  group('StartWeekOnNotifier Tests', () {
+    setUp(() {
+      SharedPreferences.setMockInitialValues({'settings_start_week_on': 'Monday'});
+    });
+
+    test('initial state defaults to Monday or saved preference', () {
+      final notifier = StartWeekOnNotifier();
+      expect(notifier.state, equals('Monday'));
+      expect(notifier.startOnMonday, isTrue);
+    });
+
+    test('setDay updates day and startOnMonday flag', () async {
+      final notifier = StartWeekOnNotifier();
+      await notifier.setDay('Sunday');
+      expect(notifier.state, equals('Sunday'));
+      expect(notifier.startOnMonday, isFalse);
+    });
+
+    test('toggle flips between Monday and Sunday', () async {
+      final notifier = StartWeekOnNotifier();
+      await notifier.toggle();
+      expect(notifier.state, equals('Sunday'));
+      await notifier.toggle();
+      expect(notifier.state, equals('Monday'));
+    });
+  });
 }
+

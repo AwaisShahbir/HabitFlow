@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
 import 'package:habitflow/core/app_colors.dart';
 import 'package:habitflow/core/app_date_utils.dart';
+import 'package:habitflow/core/app_settings_provider.dart';
 import 'package:habitflow/habits/habit.dart';
 import 'package:habitflow/habits/habit_providers.dart';
 import 'package:habitflow/habits/widgets/habit_category_badge.dart';
@@ -63,8 +64,14 @@ class _HistoryCalendarScreenState extends ConsumerState<HistoryCalendarScreen> {
 
     final daysInMonth = AppDateUtils.getMonthDates(_currentMonth.year, _currentMonth.month);
     final firstDay = daysInMonth.first;
-    // 1 = Monday, 7 = Sunday -> padding for Monday-first calendar
-    final paddingDays = firstDay.weekday - 1;
+    final startWeekOn = ref.watch(startWeekOnProvider);
+    final startOnMonday = startWeekOn == 'Monday';
+    final paddingDays = startOnMonday
+        ? firstDay.weekday - 1
+        : firstDay.weekday % 7;
+    final weekdayLabels = startOnMonday
+        ? const ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+        : const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
     return Scaffold(
       appBar: AppBar(
@@ -148,7 +155,7 @@ class _HistoryCalendarScreenState extends ConsumerState<HistoryCalendarScreen> {
                     padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 4),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
-                      children: const ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+                      children: weekdayLabels
                           .map((d) => SizedBox(
                                 width: 36,
                                 child: Text(

@@ -5,6 +5,7 @@ import 'package:intl/intl.dart';
 import 'package:habitflow/core/notification_service.dart';
 import 'package:habitflow/core/app_colors.dart';
 import 'package:habitflow/core/app_date_utils.dart';
+import 'package:habitflow/core/app_settings_provider.dart';
 import 'package:habitflow/habits/habit.dart';
 import 'package:habitflow/habits/habit_completion.dart';
 import 'package:habitflow/habits/habit_providers.dart';
@@ -155,7 +156,8 @@ class HabitDetailsScreen extends ConsumerWidget {
             ? ((completedCount / scheduledCount) * 100).round()
             : (totalDone > 0 ? 100 : 0);
 
-        final weekDates = AppDateUtils.getWeekDates(DateTime.now());
+        final startWeekOn = ref.watch(startWeekOnProvider);
+        final weekDates = AppDateUtils.getWeekDates(DateTime.now(), startOnMonday: startWeekOn == 'Monday');
         final todayStr = AppDateUtils.toIsoDateString(now);
         final todayCompletion = completionsMap[todayStr];
         final isCompletedToday = todayCompletion?.isCompleted ?? false;
