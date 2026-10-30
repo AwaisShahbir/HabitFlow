@@ -42,6 +42,16 @@ void main() {
       expect(updated.avatarType, equals(profile.avatarType));
       expect(updated.avatarBgColor, equals(profile.avatarBgColor));
     });
+
+    test('UserProfileNotifier resetProfile restores default state', () async {
+      final notifier = UserProfileNotifier();
+      await notifier.updateName('Custom User');
+      expect(notifier.state.name, equals('Custom User'));
+
+      await notifier.resetProfile();
+      expect(notifier.state.name, equals('Alex'));
+      expect(notifier.state.avatarKey, equals('botanical'));
+    });
   });
 
   group('Full Backup & Restore Payload Tests', () {

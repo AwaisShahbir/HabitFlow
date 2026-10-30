@@ -10,6 +10,7 @@ import 'package:habitflow/core/theme_provider.dart';
 import 'dart:io';
 import 'package:intl/intl.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:habitflow/core/user_profile_provider.dart';
 import 'package:habitflow/habits/habit_completion_model.dart';
@@ -28,7 +29,63 @@ class SettingsScreen extends ConsumerStatefulWidget {
 
 class _SettingsScreenState extends ConsumerState<SettingsScreen> {
   bool _notificationsEnabled = true;
-  // Managed by startWeekOnProvider
+
+  @override
+  void initState() {
+    super.initState();
+    _loadNotificationPreference();
+  }
+
+  Future<void> _loadNotificationPreference() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final enabled = prefs.getBool('habit_reminders_enabled') ?? true;
+      if (mounted) {
+        setState(() {
+          _notificationsEnabled = enabled;
+        });
+      }
+    } catch (_) {}
+  }
+
+  Future<void> _setNotificationsEnabled(bool val) async {
+    setState(() {
+      _notificationsEnabled = val;
+    });
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setBool('habit_reminders_enabled', val);
+    } catch (_) {}
+
+    if (val) {
+      await NotificationService().requestPermissions();
+      final habits = await ref.read(habitRepositoryProvider).getAllHabits();
+      for (final h in habits) {
+        if (h.reminderTime != null) {
+          await NotificationService().scheduleHabitReminder(
+            habitId: h.id,
+            habitName: h.name,
+            timeString: h.reminderTime!,
+            scheduledDays: h.scheduledDays,
+          );
+        }
+      }
+    } else {
+      await NotificationService().cancelAllReminders();
+    }
+
+    if (mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            val ? 'Habit reminders enabled' : 'All habit reminders disabled',
+          ),
+          backgroundColor:
+              val ? const Color(0xFF15803D) : const Color(0xFF475569),
+        ),
+      );
+    }
+  }
 
   void _showStartWeekBottomSheet(BuildContext context) {
     final currentDay = ref.read(startWeekOnProvider);
@@ -483,8 +540,14 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
                       borderRadius: BorderRadius.circular(16),
                     ),
                   ),
-                  onPressed: () {
+                  onPressed: () async {
                     Navigator.pop(ctx);
+                    try {
+                      final prefs = await SharedPreferences.getInstance();
+                      await prefs.setBool('has_completed_onboarding', false);
+                    } catch (_) {}
+                    await ref.read(userProfileProvider.notifier).resetProfile();
+                    await NotificationService().cancelAllReminders();
                     if (mounted) {
                       ScaffoldMessenger.of(context).showSnackBar(
                         const SnackBar(
@@ -492,7 +555,7 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
                           backgroundColor: Color(0xFF15803D),
                         ),
                       );
-                      context.go('/splash');
+                      context.go('/onboarding');
                     }
                   },
                   child: const Text(
@@ -1057,101 +1120,35 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
               iconColor: const Color(0xFFD97706),
               title: 'Notifications',
               subtitle: _notificationsEnabled
-                  ? 'Reminders active (Tap bell to test)'
-                  : 'Reminders Disabled',
-              trailing: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  if (_notificationsEnabled)
-                    IconButton(
-                      icon: const Icon(Icons.notification_important_rounded, size: 20),
-                      tooltip: 'Send Test Notification',
-                      color: const Color(0xFF15803D),
-                      onPressed: () async {
-                        await NotificationService().showInstantNotification(
-                          title: 'HabitFlow Test 🌿',
-                          body: 'Notifications are working perfectly! Keep your streak alive.',
-                        );
-                        if (mounted) {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(
-                              content: Text('Test notification sent! Check your notification bar.'),
-                              backgroundColor: Color(0xFF15803D),
-                            ),
-                          );
-                        }
-                      },
-                    ),
-                  Switch(
-                    value: _notificationsEnabled,
-                    activeColor: const Color(0xFF15803D),
-                    onChanged: (val) async {
-                      setState(() {
-                        _notificationsEnabled = val;
-                      });
-                      if (val) {
-                        await NotificationService().requestPermissions();
-                        final habits = await ref.read(habitRepositoryProvider).getAllHabits();
-                        for (final h in habits) {
-                          if (h.reminderTime != null) {
-                            await NotificationService().scheduleHabitReminder(
-                              habitId: h.id,
-                              habitName: h.name,
-                              timeString: h.reminderTime!,
-                              scheduledDays: h.scheduledDays,
-                            );
-                          }
-                        }
-                      } else {
-                        await NotificationService().cancelAllReminders();
-                      }
-                      if (mounted) {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(
-                            content: Text(
-                              val
-                                  ? 'Habit reminders enabled'
-                                  : 'All habit reminders disabled',
-                            ),
-                            backgroundColor:
-                                val ? const Color(0xFF15803D) : const Color(0xFF475569),
-                          ),
-                        );
-                      }
-                    },
-                  ),
-                ],
+                  ? 'Daily reminders enabled'
+                  : 'Reminders disabled',
+              trailing: Switch(
+                value: _notificationsEnabled,
+                activeColor: const Color(0xFF15803D),
+                onChanged: (val) => _setNotificationsEnabled(val),
               ),
+              onTap: () => _setNotificationsEnabled(!_notificationsEnabled),
+            ),
+
+            // 2a. Send Test Notification (Dedicated quick test button)
+            _buildSettingsCard(
+              isDark: isDark,
+              icon: Icons.notification_add_rounded,
+              iconBg: const Color(0xFFDCFCE7),
+              iconColor: const Color(0xFF15803D),
+              title: 'Send Test Notification',
+              subtitle: 'Tap to trigger an instant reminder alert',
               onTap: () async {
-                final nextVal = !_notificationsEnabled;
-                setState(() {
-                  _notificationsEnabled = nextVal;
-                });
-                if (nextVal) {
-                  await NotificationService().requestPermissions();
-                  final habits = await ref.read(habitRepositoryProvider).getAllHabits();
-                  for (final h in habits) {
-                    if (h.reminderTime != null) {
-                      await NotificationService().scheduleHabitReminder(
-                        habitId: h.id,
-                        habitName: h.name,
-                        timeString: h.reminderTime!,
-                        scheduledDays: h.scheduledDays,
-                      );
-                    }
-                  }
-                } else {
-                  await NotificationService().cancelAllReminders();
-                }
+                HapticFeedback.lightImpact();
+                await NotificationService().showInstantNotification(
+                  title: 'HabitFlow Reminder 🌿',
+                  body: 'Notifications are working! Keep your daily streak alive.',
+                );
                 if (mounted) {
                   ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(
-                      content: Text(
-                        nextVal
-                            ? 'Habit reminders enabled'
-                            : 'All habit reminders disabled',
-                      ),
-                      backgroundColor: nextVal ? const Color(0xFF15803D) : const Color(0xFF475569),
+                    const SnackBar(
+                      content: Text('Test notification sent! Check your notification bar.'),
+                      backgroundColor: Color(0xFF15803D),
                     ),
                   );
                 }

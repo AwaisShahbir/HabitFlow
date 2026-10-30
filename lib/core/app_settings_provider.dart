@@ -39,3 +39,4 @@ final startWeekOnProvider =
     StateNotifierProvider<StartWeekOnNotifier, String>((ref) {
   return StartWeekOnNotifier();
 });
+

@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:flutter_timezone/flutter_timezone.dart';
 import 'package:timezone/data/latest_all.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
 
@@ -14,17 +15,24 @@ class NotificationService {
 
   bool _isInitialized = false;
 
+  static const String channelId = 'habit_reminders';
+  static const String channelName = 'Habit Reminders';
+  static const String channelDesc =
+      'Notifications to remind you to complete your daily habits';
+
   Future<void> initialize() async {
     if (kIsWeb || _isInitialized) return;
 
     try {
       tz.initializeTimeZones();
+      await _configureLocalTimeZone();
 
-      const androidSettings = AndroidInitializationSettings('@mipmap/ic_launcher');
+      const androidSettings =
+          AndroidInitializationSettings('@mipmap/ic_launcher');
       const iosSettings = DarwinInitializationSettings(
-        requestAlertPermission: false,
-        requestBadgePermission: false,
-        requestSoundPermission: false,
+        requestAlertPermission: true,
+        requestBadgePermission: true,
+        requestSoundPermission: true,
       );
 
       const initSettings = InitializationSettings(
@@ -39,9 +47,45 @@ class NotificationService {
         },
       );
 
+      // Create high-importance Android channel explicitly
+      final androidPlugin = _notificationsPlugin
+          .resolvePlatformSpecificImplementation<
+              AndroidFlutterLocalNotificationsPlugin>();
+      if (androidPlugin != null) {
+        const channel = AndroidNotificationChannel(
+          channelId,
+          channelName,
+          description: channelDesc,
+          importance: Importance.max,
+          playSound: true,
+          enableVibration: true,
+          enableLights: true,
+        );
+        await androidPlugin.createNotificationChannel(channel);
+      }
+
       _isInitialized = true;
     } catch (e) {
       debugPrint('NotificationService init error: $e');
+    }
+  }
+
+  Future<void> _configureLocalTimeZone() async {
+    try {
+      final String timeZoneName = await FlutterTimezone.getLocalTimezone();
+      tz.setLocalLocation(tz.getLocation(timeZoneName));
+      debugPrint('Configured local timezone: $timeZoneName');
+    } catch (e) {
+      debugPrint('Could not set timezone via FlutterTimezone: $e');
+      try {
+        final offset = DateTime.now().timeZoneOffset;
+        final matched = tz.timeZoneDatabase.locations.values.firstWhere(
+          (l) => l.currentTimeZone.offset == offset.inMilliseconds,
+          orElse: () => tz.local,
+        );
+        tz.setLocalLocation(matched);
+        debugPrint('Fallback configured timezone to: ${matched.name}');
+      } catch (_) {}
     }
   }
 
@@ -50,7 +94,8 @@ class NotificationService {
 
     try {
       final androidPlugin = _notificationsPlugin
-          .resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>();
+          .resolvePlatformSpecificImplementation<
+              AndroidFlutterLocalNotificationsPlugin>();
       if (androidPlugin != null) {
         final granted = await androidPlugin.requestNotificationsPermission();
         return granted ?? false;
@@ -67,7 +112,10 @@ class NotificationService {
     required String timeString,
     required List<int> scheduledDays,
   }) async {
-    if (kIsWeb || !_isInitialized) return;
+    if (kIsWeb) return;
+    if (!_isInitialized) {
+      await initialize();
+    }
 
     try {
       await cancelHabitReminder(habitId);
@@ -75,15 +123,19 @@ class NotificationService {
       final parsed = _parseTime(timeString);
       if (parsed == null) return;
 
+      // Ensure timezone is up to date
       final now = tz.TZDateTime.now(tz.local);
       final idHash = habitId.hashCode.abs() % 100000;
 
       const androidDetails = AndroidNotificationDetails(
-        'habit_reminders',
-        'Habit Reminders',
-        channelDescription: 'Notifications to remind you to complete your daily habits',
-        importance: Importance.high,
+        channelId,
+        channelName,
+        channelDescription: channelDesc,
+        importance: Importance.max,
         priority: Priority.high,
+        playSound: true,
+        enableVibration: true,
+        enableLights: true,
         icon: '@mipmap/ic_launcher',
       );
       const notificationDetails = NotificationDetails(android: androidDetails);
@@ -97,8 +149,23 @@ class NotificationService {
         parsed.minute,
       );
 
+      // If scheduled time has already passed today, advance to tomorrow
       if (scheduledDate.isBefore(now)) {
         scheduledDate = scheduledDate.add(const Duration(days: 1));
+      }
+
+      // Check if device supports exact alarms without throwing
+      var scheduleMode = AndroidScheduleMode.inexactAllowWhileIdle;
+      final androidPlugin = _notificationsPlugin
+          .resolvePlatformSpecificImplementation<
+              AndroidFlutterLocalNotificationsPlugin>();
+      if (androidPlugin != null) {
+        try {
+          final canExact = await androidPlugin.canScheduleExactNotifications();
+          if (canExact == true) {
+            scheduleMode = AndroidScheduleMode.exactAllowWhileIdle;
+          }
+        } catch (_) {}
       }
 
       await _notificationsPlugin.zonedSchedule(
@@ -107,11 +174,14 @@ class NotificationService {
         'Time to complete "$habitName"! Keep your streak alive!',
         scheduledDate,
         notificationDetails,
-        androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
+        androidScheduleMode: scheduleMode,
         uiLocalNotificationDateInterpretation:
             UILocalNotificationDateInterpretation.absoluteTime,
         matchDateTimeComponents: DateTimeComponents.time,
       );
+
+      debugPrint(
+          'Scheduled reminder for $habitName at $scheduledDate (mode: $scheduleMode)');
     } catch (e) {
       debugPrint('Error scheduling reminder for $habitName: $e');
     }
@@ -147,11 +217,14 @@ class NotificationService {
     try {
       await requestPermissions();
       const androidDetails = AndroidNotificationDetails(
-        'habit_reminders',
-        'Habit Reminders',
-        channelDescription: 'Notifications to remind you to complete your daily habits',
-        importance: Importance.high,
+        channelId,
+        channelName,
+        channelDescription: channelDesc,
+        importance: Importance.max,
         priority: Priority.high,
+        playSound: true,
+        enableVibration: true,
+        enableLights: true,
         icon: '@mipmap/ic_launcher',
       );
       const notificationDetails = NotificationDetails(android: androidDetails);
@@ -161,6 +234,7 @@ class NotificationService {
         body,
         notificationDetails,
       );
+      debugPrint('Instant notification shown successfully');
     } catch (e) {
       debugPrint('Error showing instant notification: $e');
     }
@@ -184,4 +258,3 @@ class NotificationService {
     }
   }
 }
-

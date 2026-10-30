@@ -116,6 +116,15 @@ class UserProfileNotifier extends StateNotifier<UserProfile> {
       avatarBgColor: avatarBgColor,
     ));
   }
+
+  Future<void> resetProfile() async {
+    await _persist(const UserProfile(
+      name: 'Alex',
+      avatarType: 'icon',
+      avatarKey: 'botanical',
+      avatarBgColor: 0xFFDCFCE7,
+    ));
+  }
 }
 
 final userProfileProvider =
